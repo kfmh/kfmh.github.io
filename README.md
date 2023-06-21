@@ -1,4 +1,17 @@
-### Hi there 👋
+<h1 align= "center">🚀 "Oh what a time to be alive!" 🚀</h1>
+<p>You have to admit that the odds are pretty low for experiencing the era of</p>
+<ul> 
+  <li>Autonomous agents</li>
+  <li>Augmented reality</li>
+  <li>Bitcoin</li>
+  <li>Internet</li>
+  <li>UAP's</li>
+  <li>AI protein-folding</li>
+  <li>Space exploration</li>
+<ul/>
+
+
+
 
 <!--
 **undrwolf/undrwolf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
