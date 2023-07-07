@@ -1,5 +1,8 @@
-<h1 align= "center">🚀🚀</h1>
+Current project:
+
+[Pobbof.com](https://pages.github.com/) is an autobiography by my father.
 <!--
+<h1>Developing educational technology</h1>
 <h1 align= "center">🚀 "Oh what a time to be alive!" 🚀</h1>
 <p>You have to admit that the odds are pretty low for experiencing the era of</p>
 <ul> 
