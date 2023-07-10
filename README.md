@@ -1,7 +1,7 @@
 ### Current project:
 
 Web application: <br>
-[Pobbof.com](https://pages.github.com/) an autobiography in progress with new chapter is published every week. <br>
+[Pobbof.com](https://pages.github.com/) an autobiography in progress with a new chapter published every week. <br>
 Currently only available in Swedish but will also be published in english. 
 <!--
 <h1>Developing educational technology</h1>
