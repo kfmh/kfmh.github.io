@@ -1,6 +1,8 @@
-Current project:
+### Current project:
 
-[Pobbof.com](https://pages.github.com/) is an autobiography by my father.
+Web application: <br>
+[Pobbof.com](https://pages.github.com/) an autobiography in progress with new chapter is published every week. <br>
+Currently only available in Swedish but will also be published in english. 
 <!--
 <h1>Developing educational technology</h1>
 <h1 align= "center">🚀 "Oh what a time to be alive!" 🚀</h1>
