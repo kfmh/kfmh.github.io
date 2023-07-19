@@ -1,5 +1,6 @@
-### Current project:
+<img width="1040" alt="Screenshot 2023-07-19 at 18 31 02" src="https://github.com/undrwolf/undrwolf/assets/74624168/7203d4b6-d6f5-42f9-8c6d-6659dd670f37">
 
+### Current project:
 Full stack blog application: <br>
 [Pobbof.com](https://pages.github.com/) an autobiography in progress with a new chapter published every week. <br>
 Currently only available in Swedish but will also be published in english. 
