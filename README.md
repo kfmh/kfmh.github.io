@@ -1,4 +1,4 @@
-<img width="1040" alt="Screenshot 2023-07-19 at 18 31 02" src="https://github.com/undrwolf/undrwolf/assets/74624168/7203d4b6-d6f5-42f9-8c6d-6659dd670f37">
+<img width="1028" alt="Screenshot 2023-07-21 at 16 38 39" src="https://github.com/undrwolf/undrwolf/assets/74624168/42257a84-2ad0-4ab4-ab20-85cf62d1a98a">
 
 ### Current project:
 Full stack blog application: <br>
