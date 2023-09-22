@@ -4,17 +4,18 @@
 <hr>
 Full stack blog application:
 
-[Pobbof.com](https://pobbof.com/) an autobiography in progress with a new chapter published every week. <br>
-Currently only available in Swedish but will also be published in english. 
+[Pobbof.com](https://pobbof.com/) an autobiography in progress, currently only available in Swedish. 
 
 <hr>
 
 [Fundamentals](https://github.com/undrwolf/fundamentals) an education technology project.<br>
+<!--
 Currently developing a proof of concept for fundamental mathematics.
 
 Value proposition:
 - Students: Study at a pace that challenges you at your optimal performance level.
 - Educators: Build unique courses by leveraging endless and adaptive resources with performance analytics on your students and on your pedagogy.
+-->
 
 
 
