@@ -2,13 +2,12 @@
 
 ### Current project:
 <hr>
-Full stack blog application:
 
 [Pobbof.com](https://pobbof.com/) an autobiography in progress, currently only available in Swedish. 
-
 <hr>
 
 [Fundamentals](https://github.com/undrwolf/fundamentals) an education technology project.<br>
+
 <!--
 Currently developing a proof of concept for fundamental mathematics.
 
