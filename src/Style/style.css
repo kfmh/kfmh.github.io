@@ -1,0 +1,55 @@
+:root {
+    --text-color:#f0ffff;
+    --link-color:#bfffff;
+}
+body {
+    background-color: rgb(21, 21, 21);
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 20px) {
+    body {
+        padding: 13px;
+    }
+    .pagetitle {
+        font-size: 1.8rem;
+    }
+    .subtitle {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 488px) {
+    body {
+        padding: 50px;
+    }
+    .pagetitle {
+        font-size: 2.4rem;
+    }
+    .subtitle {
+        font-size: 1.6rem;
+    }
+}
+
+a {
+    color: var(--link-color);
+}
+
+.column-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 5px; /* Adjust the gap between columns as needed */
+}
+
+ul {
+    /* display: none; */
+    list-style: none;
+    padding: 0;
+    width: 50px;
+}
+
+ul li {
+    margin-bottom: 10px; /* Add some spacing between list items */
+}
