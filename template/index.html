@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- This will show in page tab above the search feald -->
+    <title>My Resume</title> 
+
 </head>
 <Style>
+    /* ----- Chage these variables for color and font size -----  */
     :root {
-    --text-color:#f0ffff;
-    --link-color:#bfffff;
-    --link-color:#6cf4f4;
-    --name-fontSize-desktop: 2.4rem;
-    --name-fontSize-mobile: 1.8rem;
-    --professionSize-desktop: 1.6rem;
-    --professionSize-mobile: 1.3rem;
+        --text-color:#f0ffff;
+        --link-color:#bfffff;
+        --link-color:#6cf4f4;
+        --name-fontSize-desktop: 2.4rem;
+        --name-fontSize-mobile: 1.8rem;
+        --profession-fontsize-desktop: 1.6rem;
+        --profession-fontsize-mobile: 1.3rem;
+        --description-fontsize: 1rem;
     }
+    /* ----- Chage these variables for color and font size -----  */
+
     body {
         background-color: rgb(21, 21, 21);
         color: var(--text-color);
@@ -25,25 +32,29 @@
         margin-right: 15px;
         cursor: pointer;
     }
+    p {
+        font-size: var(--description-fontsize);
+    }
     .name {margin: 0;}
     .profession {font-weight: 100; margin: 0 0 20px 0;}
-    /* Desktop specific */
+
+    /* Desktop screen specific */
     @media (min-width: 488px) {
         body {padding: 50px;}
         .name {font-size: var(--name-fontSize-desktop) }
-        .profession {font-size: var(--professionSize-desktop)}
+        .profession {font-size: var(--profession-fontsize-desktop)}
     }
-    /* Mobile specific */
+    /* Mobile screen specific */
     @media (max-width: 488px) {
         body {padding: 13px;}
         .name {font-size: var(--name-fontSize-mobile) }
-        .profession {font-size: var(--professionSize-mobile)}
+        .profession {font-size: var(--profession-fontsize-mobile)}
     }
 </Style>
 <body>
     <h1 class="name" >Name</h1>
     <h2 class="profession">Prefession</h2>
-    <a href="./cv.html">CV</a>
+    <a href="./resume.html">CV</a>
     <a href="/personal-letter">Personal Letter</a>
     <p>Description, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam minus ipsam eius odit ullam alias fugit quia, magnam, quaerat deserunt ab error totam dolor autem consequuntur mollitia, reiciendis consequatur? Nobis veritatis veniam debitis quaerat perferendis dicta sit incidunt, illum, impedit vero doloribus nemo libero totam animi. Officia fugit consequatur tempora?</p>
 </body>
