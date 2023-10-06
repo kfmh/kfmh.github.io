@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: set a background color for the entire page */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+.description {
+  font-family: typewhite;
+  width: 400px;
+
+}
+
+
+p, ul, ol, li{
+  font-family: 'Fira Code', monospace;
+}
+
+
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+}
+
+.terminal {
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+    border: 2px solid #8b8b8b;
+    background-color: #002d35; /* Adjusted color for neumorphic effect */
+    color: #FFF;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    box-shadow: 4px 13px 20px rgba(73, 73, 73, 0.8); /* Inner bottom right shadow */
+}
+
+.terminal-header-title p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+}
+.terminal-header-title {
+    width: 62%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.terminal-header {
+  grid-template-columns: 2;
+  grid-column: 20% 75%;
+  padding: 6px;
+  background-color: #333;
+  color: #ccc;
+  font-size: 14px;
+  display: flex;
+  border-bottom: 1px solid #3d3d3d;
+}
+
+.terminal-buttons {
+  display: inline-block;
+}
+
+.terminal-button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.terminal-button.red { background-color: #FF5F56; }
+.terminal-button.yellow { background-color: #FFBD2E; }
+.terminal-button.green { background-color: #27C93F; }
+
+.terminal-content {
+  padding: 0px;
+}
+
+pre {
+  margin: 0;
+}
+
+code {
+  margin: 0;
+}

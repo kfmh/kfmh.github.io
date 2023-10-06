@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="code_snippets.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-python.min.js"></script>
+
+</head>
+    <title>Document</title>
+</head>
+<body>
+    <div class="center-wrapper">
+        <div>
+            <div class="description">
+                <p>Linux or Mac<br>Create an alias to exicute actions in sequence by adding this at the top or bottom of your .zshrc or .bashrc file: <br> </p> 
+                <p style="margin-bottom: 0;">The example code bellow exceutes:</p>
+                <ol style="margin-top: 0;">
+                    <li>Create a new python3 environment named .env, in current directory </li>
+                    <li>pip install requirements.txt</li>
+                    <li>Activate environet</li>
+                </ol>
+            </div>
+            <div class="terminal">
+                <div class="terminal-header">
+                  <div class="terminal-buttons">
+                    <div class="terminal-button red"></div>
+                    <div class="terminal-button yellow"></div>
+                    <div class="terminal-button green"></div>
+                  </div>
+                  <div class="terminal-header-title">
+                    <p>github.com/kfmh</p>
+                </div>
+                </div>
+                <pre style="background-color: transparent; font-size: 0.9rem;">
+<code class="language-python">#Syntax: 
+#alias new-command="command-to-exicute"
+alias p3env="python3 -m venv .env \
+    && pip install -r requirements.txt \
+    && source .env/bin/activate"
+    
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

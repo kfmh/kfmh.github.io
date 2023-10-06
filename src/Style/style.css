@@ -8,33 +8,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.pagetitle { margin: 0;}
+
 @media (min-width: 20px) {
-    body {
-        padding: 13px;
-    }
-    .pagetitle {
-        font-size: 1.8rem;
-    }
-    .subtitle {
-        font-size: 1.3rem;
-    }
+    body { padding: 13px; }
+    .pagetitle { font-size: 1.8rem;}
+    .subtitle { font-size: 1.3rem;}
 }
 
 @media (min-width: 488px) {
-    body {
-        padding: 50px;
-    }
-    .pagetitle {
-        font-size: 2.4rem;
-    }
-    .subtitle {
-        font-size: 1.6rem;
-    }
+    body { padding: 50px; }
+    .pagetitle { font-size: 2.4rem;}
+    .subtitle { font-size: 1.6rem; }
 }
 
-a {
-    color: var(--link-color);
-}
+a { color: var(--link-color); }
 
 .column-container {
     width: 100%;
