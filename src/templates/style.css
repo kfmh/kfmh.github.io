@@ -1,0 +1,140 @@
+body {
+    height: 90vh;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hide the pdf that is not selected */
+.hide {
+    display: none;
+}
+
+/* Styling the selected doucemnt-name string  */
+.bold {
+    font-weight: 900;
+    transition: 0.4s;
+    font-size: 1.3rem;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: solid 2px black;
+    border-radius: 30px;
+    transition: background-color 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    border: solid 2px rgb(60, 60, 60);
+    border-radius: 50%;
+    transition: transform 0.4s;
+}
+
+.slider.update::before {
+    transform: translateX(30px);
+}
+
+@media (min-width: 480px) {
+    /* Navbar with name and slider */
+    .nav {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .toggle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .toggle div {
+        width: 150px;
+    }
+
+    .left {
+        flex: 1;
+    }
+    .right {
+        flex: 1;
+    }
+
+    /* Slider styling  */
+    .toggle-switch {
+        position: relative;
+        width: 54px;
+        height: 24px;
+        display: inline-block;
+    }
+
+    #resume-str {
+        text-align: right;
+    }
+    #biography-str {
+        text-align: left;
+    }
+    iframe {
+        height: 85vh;
+        width: 99%;
+    }
+}
+
+@media (max-width: 480px) {
+    iframe {
+        height: 80vh;
+        width: 99%;
+    }
+    .toggle-switch {
+        position: relative;
+        width: 54px;
+        height: 24px;
+        display: inline-block;
+    }
+
+    .toggle div {
+        bottom: 50px;
+        width: 100px;
+    }
+    .toggle {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        bottom: 0;
+        margin: 0 auto;
+        width: 98vw;
+        gap: 1rem;
+        flex-direction: row;
+        height: 100px;
+        justify-content:center;
+    }
+
+    #resume-str {text-align: right;}
+    #biography-str {text-align: left;}
+
+    .left {
+        width: 98vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .right {display: hide;}
+
+    p { font-size: 0.9rem;}
+
+    .bold {
+        font-weight: 900;
+        transition: 0.4s;
+        font-size: 1.3rem;
+    }
+}
