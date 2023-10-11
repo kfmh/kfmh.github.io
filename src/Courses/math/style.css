@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .grid-item {
+    min-width: 300px;
+    min-height: 200px;
+    border: 1px solid white;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0 0 0 8px;
+  }
