@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        async function loadGlossary() {
+            const response = await fetch('glossary.json');
+            const glossary = await response.json();
+
+            const glossaryDiv = document.getElementById('glossary-div');
+
+            for (const letter in glossary) {
+                const letterUl = document.createElement('ul');
+                const letterLi = document.createElement('li');
+                letterLi.innerHTML = `<strong>${letter}</strong>`;
+                letterUl.appendChild(letterLi);
+
+                const termsUl = document.createElement('ul');
+                for (const term in glossary[letter]) {
+                    const termLi = document.createElement('li');
+                    termLi.innerHTML = `<strong>${term}</strong>: ${glossary[letter][term]}`;
+                    termsUl.appendChild(termLi);
+                }
+
+                letterLi.appendChild(termsUl);
+                glossaryDiv.appendChild(letterUl);
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', (event) => {
+            loadGlossary();
+        });
+    </script>
+</head>
+<body>
+    <h1>Glossary</h1>
+    <div id="glossary-div">
+
+    </div>
+</body>
+</html>

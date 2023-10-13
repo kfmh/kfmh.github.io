@@ -1,0 +1,77 @@
+{
+    "A": {
+      "Algebra": "A branch of mathematics dealing with symbols and the rules for manipulating these symbols.",
+      "Angle": "A figure formed by two rays with a common endpoint.",
+      "Arithmetic": "The branch of mathematics dealing with basic operations like addition, subtraction, multiplication, and division."
+    },
+    "B": {
+      "Base": "The number that gets multiplied when using an exponent.",
+      "Binomial": "A polynomial equation with two terms.",
+      "BODMAS": "An acronym for the order of operations: Brackets, Orders, Division/Multiplication, Addition/Subtraction."
+    },
+    "C": {
+      "Calculus": "The branch of mathematics that studies continuous change.",
+      "Coefficient": "A numerical or constant quantity placed before and multiplying a variable.",
+      "Combinatorics": "The study of counting, arrangement, and combination."
+    },
+    "D": {
+      "Derivative": "A concept in calculus that represents an infinitesimal change in a function with respect to its variable.",
+      "Determinant": "A scalar value derived from a square matrix.",
+      "Discrete Mathematics": "The study of mathematical structures that are fundamentally discrete rather than continuous."
+    },
+    "E": {
+      "Eigenvalue": "A scalar that indicates how a vector is scaled during a linear transformation.",
+      "Equation": "A mathematical statement that asserts the equality of two expressions.",
+      "Exponent": "The number that indicates how many times the base is multiplied by itself."
+    },
+    "F": {
+      "Factor": "A number that divides into another without leaving a remainder.",
+      "Function": "A relation between a set of inputs and a set of permissible outputs."
+    },
+    "G": {
+      "Geometry": "The branch of mathematics involving points, lines, planes, and figures.",
+      "Graph Theory": "The study of graphs, which are mathematical structures used to model pairwise relations between objects."
+    },
+    "I": {
+      "Inequality": "A relation between two expressions that may not be equal.",
+      "Integral": "The opposite of a derivative, used to calculate the area under a curve in calculus.",
+      "Irrational Number": "A number that cannot be expressed as a simple fraction."
+    },
+    "L": {
+      "LCM": "The smallest multiple that two or more numbers have in common.",
+      "Limit": "A value that a function approaches as the input approaches a given value.",
+      "Linear Equation": "An equation that forms a straight line when graphed."
+    },
+    "M": {
+      "Matrix": "A rectangular array of numbers, symbols, or expressions.",
+      "Mean": "The average of a set of numbers.",
+      "Median": "The middle value in a set of numbers."
+    },
+    "P": {
+      "Permutation": "An arrangement of objects in a specific order.",
+      "Polynomial": "An expression consisting of variables and coefficients.",
+      "Prime Number": "A natural number greater than 1 that has no positive divisors other than 1 and itself."
+    },
+    "R": {
+      "Radian": "A unit of angular measure in mathematics.",
+      "Rational Number": "A number that can be expressed as a fraction.",
+      "Real Number": "A value that represents a quantity along a continuous line."
+    },
+    "S": {
+      "Set Theory": "The branch of mathematical logic that studies sets, which are collections of objects.",
+      "Statistics": "The study of data: how to collect, analyze, and interpret it.",
+      "System of Equations": "A set of multiple equations to be solved together."
+    },
+    "T": {
+      "Trigonometry": "The branch of mathematics dealing with the relationships between the angles and sides of triangles.",
+      "Tangent": "A trigonometric function that represents the ratio of the opposite side to the adjacent side in a right triangle."
+    },
+    "V": {
+      "Variable": "A symbol used to represent an unknown or changeable quantity.",
+      "Vector": "A quantity having both magnitude and direction."
+    },
+    "Z": {
+      "Zero": "The integer between -1 and 1, used to represent the absence of quantity."
+    }
+  }
+  
