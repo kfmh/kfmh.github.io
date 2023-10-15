@@ -1,0 +1,10 @@
+.blog-container {
+    display: grid;
+    grid-template-columns: 20% 56% 20%;
+    justify-content: space-evenly;
+}
+  
+.grid-item {
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+}
