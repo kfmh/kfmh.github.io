@@ -69,6 +69,17 @@ a {
     color: var(--text-color);
 }
 
+ul {
+    /* display: none; */
+    list-style: none;
+    padding: 0;
+    width: 50px;
+}
+
+ul li {
+    margin-bottom: 10px; /* Add some spacing between list items */
+}
+
 .content-div a {
     font-size: 1.3rem;
     font-weight: 100;
@@ -84,16 +95,49 @@ a {
     flex-direction: column;
     width: fit-content;
     height: fit-content;
-
 }
 
-ul {
-    /* display: none; */
-    list-style: none;
-    padding: 0;
-    width: 50px;
+#mathQuestion {
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 400px;
+    height: 160px;
+}
+#answer-form{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
 }
 
-ul li {
-    margin-bottom: 10px; /* Add some spacing between list items */
+#user-input {
+    border-radius: 10px;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    border: solid white 1px;
+    color: white;
+    width: 100px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+#user-input-submit {
+    border-radius: 10px;
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    border: solid white 1px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+#new-question-btn {
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
 }
