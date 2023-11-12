@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../../../Style/style.css">
+    <!-- <script src="./math.js"></script> -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <title>Karl-Fredrik</title>
 </head>
 <style>
@@ -19,12 +22,14 @@
 
     <div class="content-div">
             <div id="mathQuestion"></div>
-            <form id="answer-form">
+            <div>
                 <button id="new-question-btn"><img width="auto" height="30px" src="../../../Style/icons/reload.png" alt=""></button>
+            </div>
+            <!-- <form id="answer-form">
                 <input type="text" id="user-input" pattern="\d+" placeholder="Only Integer" required autocomplete="off">
                 <input type="submit" id="user-input-submit" value="Submit">
             </form>
-            <div id="result"></div>
+            <div id="result"></div> -->
     </div>
 
     <!-- <footer>
@@ -47,43 +52,70 @@
     </footer> -->
 </body>
 <script>
-    let response
-    let text
-    let answer
-    async function fetchRandomQuestion() {
-        response = await fetch('.git /grade_school_math/test.jsonl');
-        text = await response.text();
-        const lines = text.trim().split('\n');
-        const randomIndex = Math.floor(Math.random() * lines.length);
-        const randomQuestion = JSON.parse(lines[randomIndex]).question;
-        answer = JSON.parse(lines[randomIndex]).answer;
+    let questions;
+    let currentSolution;
 
-        const div = document.getElementById('mathQuestion');
-        div.innerText = randomQuestion;
+    async function fetchQuestions() {
+        const response = await fetch('../../../Data/MATH/algebra.json');
+        const text = await response.text();
+        questions = JSON.parse(text);
     };
 
-    document.getElementById('new-question-btn').addEventListener('click', fetchRandomQuestion);
+    function displayRandomQuestion() {
+        let randomQuestion = "";
+        do {
+            const randomIndex = Math.floor(Math.random() * questions.length);
+            randomQuestion = questions[randomIndex].problem;
+            level = questions[randomIndex].level;
+            type = questions[randomIndex].type;
+            currentSolution = questions[randomIndex].solution;
+        } while (randomQuestion.includes('[asy]')); // Skip questions containing [asy]
 
-    async function fetchPredefinedAnswer() {
-        const answerParts = answer.split('#### ');
-        console.log(answerParts[answerParts.length - 1].trim())
-        return answerParts[answerParts.length - 1].trim();  // Extracting the answer part after "#### "
+        const div = document.getElementById('mathQuestion');
+        div.innerHTML = `${type}: ${level} <br><br> ${randomQuestion} <br><hr> Solution: <br><br>${currentSolution}`;
+
+        MathJax.typesetPromise();  // This line tells MathJax to process the new content
     }
 
-    document.getElementById('answer-form').addEventListener('submit', async function(e) {
-        e.preventDefault();
-        const predefinedAnswer = await fetchPredefinedAnswer();
-        const userInput = document.getElementById('user-input').value;
-        const resultDiv = document.getElementById('result');
-        if (userInput === predefinedAnswer) {
-            resultDiv.innerText = "Correct!";
-            resultDiv.style.color = "green";
-        } else {
-            resultDiv.innerText = "Incorrect. Try again.";
-            resultDiv.style.color = "red";
+    document.getElementById('new-question-btn').addEventListener('click', displayRandomQuestion);
+
+    // function checkAnswer() {
+    //     const userInput = document.getElementById('user-input').value;
+    //     const resultDiv = document.getElementById('result');
+    //     if (userInput === currentSolution) {
+    //         resultDiv.innerText = "Correct!";
+    //         resultDiv.style.color = "green";
+    //     } else {
+    //         resultDiv.innerText = "Incorrect. Try again.";
+    //         resultDiv.style.color = "red";
+    //     }
+    // }
+
+    // document.getElementById('answer-form').addEventListener('submit', function(e) {
+    //     e.preventDefault();
+    //     checkAnswer();
+    // });
+
+    // Load questions and a random question on initial page load
+    window.onload = async () => {
+        await fetchQuestions();
+        displayRandomQuestion();
+    };
+    
+    window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            processEscapes: true,
+            processEnvironments: true
+            // other configurations
+        },
+        startup: {
+            ready: () => {
+                MathJax.startup.defaultReady();
+                displayRandomQuestion(); // Call this here to ensure MathJax is loaded
+            }
         }
-    });
-    // Load a random question on initial page load
-    window.onload = fetchRandomQuestion;
+    };
 </script>
 </html>

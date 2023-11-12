@@ -86,11 +86,13 @@ ul li {
     margin-top: 40px;
 }
 .content-div {
+    display: grid;
+    grid-template-columns: 90% 10%;
     position: absolute;
     top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
+    /* display: flex; */
     text-align: center;
     flex-direction: column;
     width: fit-content;
@@ -99,12 +101,12 @@ ul li {
 
 #mathQuestion {
     text-align:justify;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     margin-bottom: 20px;
-    max-width: 400px;
+    max-width: 600px;
     height: 160px;
 }
 #answer-form{
