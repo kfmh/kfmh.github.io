@@ -1,0 +1,102 @@
+\documentclass{article}
+
+% Packages, custom commands here
+\usepackage{amsmath}    % For advanced math typesettings
+\usepackage{graphicx}   % For including images
+\usepackage{hyperref}   % For hyperlinks
+\usepackage{lipsum}     % Generates filler text
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{xcolor}     % Syntax Highlighting
+
+\lstset{language=Python,
+        basicstyle=\ttfamily\small,
+        keywordstyle=\color{blue},
+        commentstyle=\color{gray},
+        stringstyle=\color{orange},
+        showstringspaces=false,
+        identifierstyle=\color{black}}
+
+
+\pagestyle{fancy}       %
+\fancyhead[L]{}
+\fancyhead[C]{Logarithms}
+\fancyhead[R]{}
+\fancyfoot[L]{}
+\fancyfoot[C]{Page \thepage}
+\fancyfoot[R]{}
+
+\begin{document}
+
+% Documnet starts here
+\title{Logarithms}
+\author{Author: Karl-Fredrik Hagman}
+\date{}
+\maketitle
+
+\begin{abstract}
+    Logarithms are mathematical operations that determine the exponent needed to raise a base number to a specific value. Essentially the inverse of exponentiation, they're fundamental in various fields, simplifying complex multiplications and divisions into more manageable additions and subtractions, and aiding in solving exponential aligns.
+\end{abstract}
+
+\section{Introduction}
+    Simply put, logarithms help you find out how many times you need to multiply a number by itself to get another number. It's like asking, "If I keep multiplying $10$, how many times do I need to do it to get $1000$?" The answer is $3$, because 10 multiplied by itself three times $(10 \times 10 \times 10)$ equals $1000$. Logarithms figure this out for you, and can be done with any base numbers system.
+\begin{align}
+    \log_{10}(1000) = 3 \\
+    \log_{2}(8) = 3
+\end{align}
+
+\section{Logarithmic rules}
+% References
+\begin{align}
+    \log_{b}(M\times N) &= \log_{b}(M) + \log_{b}(N) \\
+    \log_{b}(M\div N) &= \log_{b}(M) - \log_{b}(N) \\
+    \log_{b}(M^x) &= x \times \log_{b}(M) \\
+    \log_{b}(1) &= 0 \\
+    \log_{b}(b) &= 1 \\
+    \log_{b}(b^x) &= x \\
+    b^{\log_{b}(x)} &= x
+\end{align}
+
+\section{Frequently used logarithms}
+    Base 10 logarithms, natural logarithms, and binary logarithms are fundamental concepts in mathematics, each with distinct bases and applications. The base 10 logarithm, also known as the common logarithm, uses 10 as its base and is integral in fields like engineering and scientific notation due to its alignment with the decimal system. The natural logarithm, with Euler's number (approximately 2.71828) as its base, is pivotal in calculus, growth processes, and complex numbers, owing to its unique mathematical properties and the natural occurrence of $e$ in growth/decay phenomena. The binary logarithm, based on 2, is crucial in computer science and information theory, as it measures the number of times a number must be divided by 2 to reach 1, aligning with binary computation and data representation. Each of these logarithms serves as a powerful tool in its respective domain, translating multiplicative relationships into additive ones and simplifying complex calculations.
+    \begin{align}
+        \log_{10}(10) &= \log(10) = 1 \\
+        \ln(e) &= 1 \\
+        \log_{2}(2) &= 1 \\
+    \end{align}
+\section{Calculating logarithms using Python}
+\begin{lstlisting}
+    import math
+
+    # Most  widely used logarithms uses base 10
+    log10 = math.log10(10)
+    
+    # Natural logarithm, uses the Euler's number as base
+    e = math.e
+    ln = math.log(e)
+    
+    # Binary logarithms, uses base 2
+    binary_log  = math.log2(2)
+    
+    # Logarithm with custom base
+    base4 = math.log(4, 4)
+    
+    print(f"{log10}: Base 10 logarithm")
+    print(f"{ln}: Natural logarithm")
+    print(f"{binary_log}: Binary logarithm ")
+    print(f"{base4}: Base 4 logarithm")
+\end{lstlisting}
+    
+
+
+\begin{thebibliography}{9}
+\bibitem{ref1}
+Author Name,
+\textit{Title of the book or paper},
+Publisher or Journal, Year.
+
+% Add more bibliographic entries here
+\end{thebibliography}
+
+\end{document}
