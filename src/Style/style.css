@@ -85,6 +85,7 @@ ul li {
     font-weight: 100;
     margin-top: 40px;
 }
+
 .content-div {
     display: grid;
     grid-template-columns: 90% 10%;
@@ -97,6 +98,13 @@ ul li {
     flex-direction: column;
     width: fit-content;
     height: fit-content;
+}
+
+#spotify-player {
+    min-width: 350px;
+    width: 600px;
+    min-height: 300px;
+    height: 400px;
 }
 
 #mathQuestion {
