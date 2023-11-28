@@ -87,24 +87,23 @@ ul li {
 }
 
 .content-div {
-    display: grid;
-    grid-template-columns: 90% 10%;
     position: absolute;
     top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* display: flex; */
     text-align: center;
-    flex-direction: column;
-    width: fit-content;
-    height: fit-content;
+    max-width: 600px;
+    width: 90%;
+    height: 400px;
 }
 
 #spotify-player {
-    min-width: 350px;
-    width: 600px;
-    min-height: 300px;
-    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 35px;
+    max-width: 80%;
+    height: 100px;
 }
 
 #mathQuestion {
