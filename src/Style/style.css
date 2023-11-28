@@ -46,10 +46,9 @@ body {
     padding: 10px 0 0 10px;
 }
 
-footer {
+nav {
     height: 100px;
     width: 100vw;
-    position: absolute;
     display: block;
     bottom: 0;
     display: flex;
@@ -57,12 +56,12 @@ footer {
     justify-content:space-around;
 }
 
-footer a img{
+nav a img{
     width: 40px;
     height: 40px;
 }
 
-footer a {
+nav a {
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -70,7 +69,7 @@ footer a {
     color: var(--text-color);
 }
 
-footer a p {
+nav a p {
     font-size: 0.8rem;
     margin: 4px 0 0 0;
 }
