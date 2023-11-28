@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
+    height: 100vh;
     margin: 0;
     padding: 0;
     background-color: rgb(11, 11, 11);
@@ -14,25 +15,42 @@ body {
 }
 
 
-@media (min-width: 20px) {
+/* @media (min-width: 20px) {
     .pagetitle { font-size: 1.4rem;}
     .subtitle { font-size: 1.1rem;}
     header {
+        position: relative;
+        display: block;
+        height: 50px;
         margin: 0;
-        padding: 30px;
+        padding: 20px;
     }
 }
 
 @media (min-width: 488px) {
     .pagetitle { font-size: 2.4rem;}
     .subtitle { font-size: 1.6rem; }
-    header {padding: 50px;}
+    header {
+        height: 50px;
+        margin: 0;
+        padding: 20px;
+        padding: 50px;}
+} */
+
+.content-div {
+    margin: 0 auto;
+    height: calc(90vh - 7em);
+    width: 90%;
+}
+.title {
+    padding: 10px 0 0 10px;
 }
 
 footer {
     height: 100px;
     width: 100vw;
     position: absolute;
+    display: block;
     bottom: 0;
     display: flex;
     align-items: center;
@@ -69,39 +87,10 @@ a {
     color: var(--text-color);
 }
 
-ul {
-    /* display: none; */
-    list-style: none;
-    padding: 0;
-    width: 50px;
-}
 
-ul li {
-    margin-bottom: 10px; /* Add some spacing between list items */
-}
 
-.content-div a {
-    font-size: 1.3rem;
-    font-weight: 100;
-    margin-top: 40px;
-}
-
-.content-div {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    max-width: 600px;
-    width: 90%;
-    height: 400px;
-}
-
-#spotify-player {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    bottom: 35px;
+.spotify-player {
+    margin: 20px auto;
     max-width: 80%;
     height: 100px;
 }
