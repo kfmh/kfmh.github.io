@@ -50,7 +50,7 @@ body {
     align-items: center;
 }
 .title div {
-    border-bottom: 10px solid var(--text-color);
+    border-bottom: 4px solid var(--text-color);
 }
 .title img {
     width: 150px;
@@ -62,10 +62,34 @@ body {
     font-size: 2.4rem;
 }
 
-.blog_post {
+.logbook-post {
+    padding: 20px 50px 20px 50px;
     margin: 0 auto;
     max-width: 800px;
     width: 90%;
+}
+.logbook-post section {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.logbook-post h4 {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+.logbook-post p {
+    margin: 0;
+    padding: 0;
+}
+.logbook-post h2 {
+    margin: 0;
+    font-weight: 100;
+}
+.logbook-post div {
+    padding: 20px;
+}
+.logbook-post a {
+    border-bottom: 1px solid white;
+    padding: 2px;
 }
 
 nav {
@@ -77,6 +101,22 @@ nav {
     display: flex;
     align-items: center;
     justify-content:space-around;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#logbook_nav h4{
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+#logbook_nav {
+    border-right: 4px solid var(--text-color);
+    padding: 20px;
+    width: fit-content;
 }
 
 nav a img{
@@ -108,7 +148,6 @@ a {
     text-decoration: none;
     color: var(--text-color);
 }
-
 
 .spotify-player {
     margin: 20px auto;
