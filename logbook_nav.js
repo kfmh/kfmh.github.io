@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('logbook.json')
+    fetch('./logbook/logbook.json')
         .then(response => response.json())
         .then(data => {
             let episodesDiv = document.getElementById('logbook_nav');
-            let novemberData = data["2023"]["november"];
-            let dates = Object.keys(novemberData); // Get all dates
+            let data_json = data["2023"]["december"];
+            let dates = Object.keys(data_json); // Get all dates
 
             // Sort dates in descending order and pick the first one (latest date)
             let latestDate = dates.sort().reverse()[0];
@@ -32,20 +32,32 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function f2(date_str) {
-    fetch('logbook.json')
+    fetch('./logbook/logbook.json')
         .then(response => response.json())
         .then(data => {
             // Accessing data for November 2023
-            let novemberData = data["2023"]["november"][date_str];
+            let data_json = data["2023"]["december"][date_str];
 
             // Assuming you have HTML elements with IDs 'abstraction', 'improvements', and 'deterioration'
             document.getElementById('date').textContent = date_str;
-            document.getElementById('weekday').textContent = novemberData.weekday;
-            document.getElementById('abstract').textContent = novemberData.abstract;
-            document.getElementById('improvements').textContent = novemberData.improvements;
-            document.getElementById('deterioration').textContent = novemberData.deterioration;
-            document.getElementById('episode-url').textContent = novemberData.episode_title;
-            document.getElementById('episode-url').href = novemberData.episode_url;
+            document.getElementById('project').textContent = data_json.project;
+            document.getElementById('weekday').textContent = data_json.weekday;
+            document.getElementById('objective').textContent = data_json.objective;
+            document.getElementById('methods').textContent = data_json.methods;
+            document.getElementById('insights').textContent = data_json.insights;
+            document.getElementById('conclusions').textContent = data_json.conclusions;
+            document.getElementById('image').src = data_json.image;
+            document.getElementById('episode-url').textContent = data_json.episode_title;
+            document.getElementById('episode-url').href = data_json.episode_url;
         })
         .catch(error => console.error('Error fetching data:', error));
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const burger = document.getElementById('burgerMenu');
+    const nav = document.getElementById('logbook_nav');
+
+    burger.addEventListener('click', function() {
+        nav.classList.toggle('is-active');
+    });
+});

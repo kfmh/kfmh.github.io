@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./src/Style/style.css">
+    <link rel="icon" type="image/x-icon" href="./src/Style/icons/lightning.png">
     <title>kfmh</title>
 </head>
 <style>
@@ -11,59 +12,83 @@
 </style>
 <body>
     
-    <div class="title">
-        <img src="./src/Style/profile_IMG.png" alt="">
-        <div>
-            <h1 class="pagetitle" style="margin: 0; padding: 0;">Karl-Fredrik M. Hagman</h1>
-            <h3 class="subtitle" style="margin-top: 0; font-weight:lighter;">Data Scientist</h3>
+    <header >
+        <!-- <img class="profile-pic" src="./src/Style/profile_IMG.png" alt=""> -->
+        <div class="title">
+            <h1 class="pagetitle" >Karl-Fredrik M. Hagman</h1>
+            <h3 class="subtitle" >Data Scientist</h3>
         </div>
-    </div>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/karl-fredrik-hagman-58a748225/">
+                <img src="./src/Style/icons/b_linkedin.png" alt="">
+                <p>Linkedin</p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCIq3jQFT1hLYj7zXR8F9kKA">
+                <img src="./src/Style/icons/b_youtube2.png" alt="">
+                <p>Youtube</p>
+            </a>
+            <a href="https://github.com/kfmh">
+                <img src="./src/Style/icons/b_github.png" alt="">
+                <p>Github</p>
+            </a>
+            <a href="/src/Resume/resume.html">
+                <img src="./src/Style/icons/b_document.png" alt="">
+                <p>Resume</p>
+            </a>
+        </div>
+    
+    </header>
 
-    <!-- <main>
-        <div id="logbook_nav">
-            <h4>Logbook</h4>
+    <main>
+        <div id="burgerMenu" class="menu-container">
+            <div class="burger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
+
+        <div id="logbook_nav" class="logbook_nav">
+            <div>
+                <h2>Projects</h2>
+                <a target="_blank" href="https://github.com/kfmh/uw-chess">uw-Chess</a> <br>
+                <!-- <a target="_blank" href="">bb-talks</a> -->
+
+
+            </div>
+            <h2>Logbook</h2>
+        </div>
+
         <article class="logbook-post">
-            <h2><span id="weekday"></span> <span id="date"></span></h2>
+            <h2 style="margin: 20px 0 0 0; padding: 0;"><span id="weekday"></span> <span id="date"></span></h2>
+            <h4 style="font-weight: 100; margin: 0 0 20px 0; padding: 0;">Project: <span id="project"></span></h4>
             <section>
-                <h4>Abstract</h4>
-                <p id="abstract"></p>
+                <h4>Objective</h4>
+                <p id="objective"></p>
             </section>
             <section>
-                <h4>Improvements</h4>
-                <p id="improvements"></p>
-                
+                <h4>Methods</h4>
+                <p id="methods"></p>
             </section>
             <section >
-                <h4>Deterioration</h4>
-                <p id="deterioration"></p>
-                
+                <h4>Insights</h4>
+                <p id="insights"></p>
+            </section>
+            <section >
+                <h4>Conclusions</h4>
+                <p id="conclusions"></p>
             </section>
             <div id="video-links">
                 <a id="episode-url" href=""></a>
             </div>
+            <div id="logbook_right"></div>
+            <img id="image" src="" alt="">
         </article>
-    </main> -->
+        
+        <div class="projects">
+        </div>
+    </main>
 
-    <nav>
-        <a href="https://www.linkedin.com/in/karl-fredrik-hagman-58a748225/">
-            <img src="./src/Style/icons/w_linkedin.png" alt="">
-            <p>Linkedin</p>
-        </a>
-        <a href="https://www.youtube.com/channel/UCIq3jQFT1hLYj7zXR8F9kKA">
-            <img src="./src/Style/icons/w_youtube2.png" alt="">
-            <p>Youtube</p>
-        </a>
-        <a href="https://github.com/kfmh">
-            <img src="./src/Style/icons/w_github.png" alt="">
-            <p>Github</p>
-        </a>
-        <a href="/src/Resume/resume.html">
-            <img src="./src/Style/icons/w_document.png" alt="">
-            <p>Resume</p>
-        </a>
-    </nav>
-
-    <!-- <script src="./logbook_nav.js"></script> -->
+    <script src="./logbook_nav.js"></script>
 </body>
 </html>

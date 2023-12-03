@@ -1,157 +1,184 @@
 :root {
-    --text-color:rgb(222, 222, 222);
-    --link-color:#bfffff;
+    --text-color:rgb(95, 95, 95);
+    --link-color:#83a5a5;
+    --background-color:rgb(235, 235, 228);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 body {
+    height: 100vh ;
     margin: 0;
     padding: 0;
-    background-color: rgb(11, 11, 11);
+    background-color: var(--background-color);
     color: var(--text-color);
+}
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+}
 
+a p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
 
-/* @media (min-width: 20px) {
-    .pagetitle { font-size: 1.4rem;}
-    .subtitle { font-size: 1.1rem;}
+.profile-pic {
+    width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
     header {
-        position: relative;
+        flex-direction: column;
+    }
+    .title h1 {font-size: 1.4rem;}
+    .title h3 {font-size: 1;}
+    .title {margin-bottom: 10px;}
+    .links {
+        margin: 0 auto;
+    }
+    main {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logbook_nav {
         display: block;
-        height: 50px;
         margin: 0;
-        padding: 20px;
+        padding: 15px 20px 20px 20px;
+        right: -100%; 
+        top: 0;
+        position: absolute;
+        width: 100px; 
+        background-color: aliceblue;
+        z-index: 10;
+        height: 100vh;
+        transition: right 0.6s; 
+        box-shadow: -5px -5px 20px rgb(0, 0, 0, 0.4);
+    }
+    
+    .logbook_nav h2 {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0 0 20px 0;
+    }
+    
+    /* Show menu when is-active class is added */
+    .logbook_nav.is-active {
+        right: 0; /* Bring into view */
+    }
+    /*               General Styles              */
+    .menu-container {
+        display: block;
+        position: relative;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 20;
+    }
+
+    /* Burger Icon */
+    .burger-menu {
+        cursor: pointer;
+        width: 30px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .burger-menu div {
+        height: 6px;
+        background-color: var(--text-color);
+        border-radius: 3px;
     }
 }
 
-@media (min-width: 488px) {
-    .pagetitle { font-size: 2.4rem;}
-    .subtitle { font-size: 1.6rem; }
-    header {
-        height: 50px;
-        margin: 0;
-        padding: 20px;
-        padding: 50px;}
-} */
-
-.content-div {
-    margin: 0 auto;
-    height: calc(90vh - 7em);
-    width: 90%;
+@media only screen and (min-width: 601px) {
+    main {
+        margin: 0 auto;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+    .menu-container {
+        display: none;
+    }
 }
 
-.title {
-    margin: 20px;
-    padding: 20px 0 20px 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.title div {
-    border-bottom: 4px solid var(--text-color);
-}
-.title img {
-    width: 150px;
-    margin-right: 20px;
-    
+#image {
+    width: 16rem; 
+    height: auto; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.title h1 {
-    font-size: 2.4rem;
+article section h4 {
+    margin: 0 0 5px 0;
 }
-
-.logbook-post {
-    padding: 20px 50px 20px 50px;
-    margin: 0 auto;
-    max-width: 800px;
-    width: 90%;
-}
-.logbook-post section {
-    margin: 0;
-    padding: 0 0 0 20px;
-}
-.logbook-post h4 {
-    margin: 20px 0 0 0;
-    padding: 0;
-}
-.logbook-post p {
-    margin: 0;
-    padding: 0;
-}
-.logbook-post h2 {
-    margin: 0;
-    font-weight: 100;
-}
-.logbook-post div {
-    padding: 20px;
-}
-.logbook-post a {
-    border-bottom: 1px solid white;
-    padding: 2px;
-}
-
-nav {
-    position: absolute;
-    bottom: 0;
-    height: 100px;
-    width: 100vw;
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-}
-
-main {
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-#logbook_nav h4{
-    margin: 0 0 10px 0;
-    padding: 0;
-}
-#logbook_nav {
-    border-right: 4px solid var(--text-color);
-    padding: 20px;
-    width: fit-content;
-}
-
-nav a img{
-    width: 40px;
-    height: 40px;
-}
-
-nav a {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: var(--text-color);
-}
-
-nav a p {
-    font-size: 0.8rem;
-    margin: 4px 0 0 0;
+article section p{
+    margin: 0 0 25px 0;
 }
 
 header {
-    position: absolute;
+    padding-top:40px ;
     display: flex;
-    align-items: center;
+    align-items:baseline;
+    justify-content: space-between;
+    border-bottom: 4px solid var(--text-color) ;
+    width: 90%;
+    margin: 0 auto;
 }
 
-a {
-    letter-spacing: 1px;
+.title h1 {
+    margin: 0;
+}
+.title h3 {
+    margin: 0;
+}
+
+.links {
+    width: 300px;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+.links img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30px;
+    height: auto;
+}
+.links a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-decoration: none;
     color: var(--text-color);
 }
-
-.spotify-player {
-    margin: 20px auto;
-    max-width: 80%;
-    height: 100px;
+.links p {
+    margin-top: 5px;
 }
+
+main section {
+    text-align: justify;
+}
+main {
+    padding-bottom: 40px;
+}
+
+.logbook_nav a {
+    width: fit-content;
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 1px solid var(--text-color);
+}
+
 
