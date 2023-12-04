@@ -1,3 +1,5 @@
+let currentSelectedLink = null;
+
 document.addEventListener('DOMContentLoaded', function() {
     fetch('./logbook/logbook.json')
         .then(response => response.json())
@@ -12,20 +14,29 @@ document.addEventListener('DOMContentLoaded', function() {
             // Call f2 with the latest date
             f2(latestDate);
 
-            // Loop through each date in 'november' of '2023'
+            // Loop through each date in json
+
             dates.forEach(date => {
                 let episodeLink = document.createElement('a');
                 episodeLink.href = '#'; // Using '#' to prevent page reload
                 episodeLink.textContent = date;
                 episodeLink.style.display = "block"; // Display links in block style
 
-                // Add click event listener to call f2 with the date
                 episodeLink.addEventListener('click', function(event) {
-                    event.preventDefault(); // Prevent default link behavior
+                    event.preventDefault();
+                    if (currentSelectedLink) {
+                        currentSelectedLink.classList.remove('selected');
+                    }
+                    currentSelectedLink = episodeLink;
+                    episodeLink.classList.add('selected');
                     f2(date);
                 });
-
+        
                 episodesDiv.appendChild(episodeLink);
+                if (date === latestDate) {
+                    currentSelectedLink = episodeLink;
+                    episodeLink.classList.add('selected');
+                }
             });
         })
         .catch(error => console.error('Error fetching data:', error));

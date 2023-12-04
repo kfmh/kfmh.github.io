@@ -3,7 +3,7 @@
         "december": {
             "2023-12-03":{
                     "weekday": "Sunday",
-                    "project":"uw-chess",
+                    "project":"uw-chess Blindfold chess trainer",
                     "objective":"Set out to implement speech-to-text (STT) functionality to move chess pieces and text-to-speech (TTS) to hear the move from the chess engine.",
                     "methods":"For generating TTS and STT I’m using Huggingface api-inference. TTS is done with the fastspeech2-en-ljspeech model by Meta, formerly facebook. STT I’m using OpenAI’s whisper-large-v2. To keep expenses low while focusing on interaction design and writing necessary ground architecture, I am using free api-inference endpoints with limited computational power. This leads to slow responses, but for now this is not an issue.",
                     "insights":"As the purpose of the uw-chess is to play blindfold chess. I haven't put much thought into chess-board rendering. For now the chess-board is rendered with ASCII graphics, this is not a conscious choice, but the default render the python-chess package generates when printing to the terminal window. While testing with ASCII design I noticed how the basic representation of the board is good for practicing with your eyes open. It’s just slightly easier than having your eyes closed. So I will add a flag for choosing ASCI, Classic-2D or only voice.",

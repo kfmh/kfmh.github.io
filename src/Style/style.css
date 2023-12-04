@@ -118,6 +118,7 @@ a p {
     transform: translateX(-50%);
 }
 
+
 article section h4 {
     margin: 0 0 5px 0;
 }
@@ -165,6 +166,11 @@ header {
 .links p {
     margin-top: 5px;
 }
+
+.selected {
+    font-weight: 700;
+}
+
 
 main section {
     text-align: justify;
