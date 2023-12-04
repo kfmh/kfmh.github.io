@@ -6,9 +6,20 @@
                     "project":"uw-chess Blindfold chess trainer",
                     "objective":"Set out to implement speech-to-text (STT) functionality to move chess pieces and text-to-speech (TTS) to hear the move from the chess engine.",
                     "methods":"For generating TTS and STT I’m using Huggingface api-inference. TTS is done with the fastspeech2-en-ljspeech model by Meta, formerly facebook. STT I’m using OpenAI’s whisper-large-v2. To keep expenses low while focusing on interaction design and writing necessary ground architecture, I am using free api-inference endpoints with limited computational power. This leads to slow responses, but for now this is not an issue.",
-                    "insights":"As the purpose of the uw-chess is to play blindfold chess. I haven't put much thought into chess-board rendering. For now the chess-board is rendered with ASCII graphics, this is not a conscious choice, but the default render the python-chess package generates when printing to the terminal window. While testing with ASCII design I noticed how the basic representation of the board is good for practicing with your eyes open. It’s just slightly easier than having your eyes closed. So I will add a flag for choosing ASCI, Classic-2D or only voice.",
+                    "insights":"As the purpose of the uw-chess is to play blindfold chess. I haven't put much thought into chess-board rendering. For now the chess-board is rendered with ASCII graphics, this is not a conscious choice, but the default render the python-chess package generates when printing to the terminal window. While testing with ASCII design I noticed how the basic representation of the board is good for practicing with your eyes open. It’s just slightly easier than having your eyes closed. So I will add a flag for choosing ASCII, Classic-2D or only voice.",
                     "conclusions":"uw-chess is coming along nicely, the absolute basics are in place while minor detales still need to be addressed for the POC. Next up is to add conditions to the UCI (Universal Chess Interface) formatting function for the STT response when attempting to castle, or when a pawn reaches the 8th rank.",
                     "image": "./logbook/images/2023-12-03_gameplay.png",
+                    "episode_url": "",
+                    "episode_title": ""
+                },
+            "2023-12-04":{
+                    "weekday": "Monday",
+                    "project":"uw-chess Blindfold chess trainer",
+                    "objective":"Cleaning up functions with error handling, adding flags for passing arguments like bot difficulty level and chess board graphics. ",
+                    "methods":"The whisper-large-v2 STT model is slow and it is becoming frustrating. Switch to a community created distil-whisper model with supposedly faster inference. whisper-large-v2 was api-inference, and distil-whisper is running locally on my apple silicone M2. It should run faster but there is some process taking unnecessary time. Added a Pygame render for the chess board.",
+                    "insights":"There is more work revealing itself all the time, but I need to keep it simple and do rapid prototyping.",
+                    "conclusions":"Everything takes longer than I think, still making great progress, maybe even moving a little bit too fast. Having lots of fun though, chess is an amazing game and I really can't wait to start playing full games.",
+                    "image": "./logbook/images/2023-12-04_gameplay.png",
                     "episode_url": "",
                     "episode_title": ""
                 }
