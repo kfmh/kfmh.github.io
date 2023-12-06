@@ -1,7 +1,7 @@
 :root {
-    --text-color:rgb(95, 95, 95);
+    --text-color:rgb(80, 80, 80);
     --link-color:#83a5a5;
-    --background-color:rgb(235, 235, 228);
+    --background-color:rgb(245, 245, 240);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
@@ -10,12 +10,19 @@ body {
     height: 100vh ;
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    width: 100%;
+    overflow-x: hidden;
     color: var(--text-color);
+    background-color: var(--background-color);
 }
+body, html {
+    overflow-x: hidden;
+  }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
+
 p {
     font-family: 'Roboto Mono', monospace;
     font-weight: 100;
@@ -26,9 +33,7 @@ a p {
     font-weight: 100;
 }
 
-.profile-pic {
-    width: 150px;
-}
+.profile-pic {width: 150px;}
 
 @media only screen and (max-width: 600px) {
     header {
@@ -41,24 +46,31 @@ a p {
         margin: 0 auto;
     }
     main {
-        margin: 0 auto;
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
+    main article {
+        width: 90%;
+        margin: 0 auto;
+    }
     .logbook_nav {
+        position: fixed; 
         display: block;
         margin: 0;
         padding: 15px 20px 20px 20px;
-        right: -100%; 
+        left: 100%; 
         top: 0;
-        position: absolute;
-        width: 100px; 
-        background-color: aliceblue;
+        width: 100px;
         z-index: 10;
         height: 100vh;
-        transition: right 0.6s; 
-        box-shadow: -5px -5px 20px rgb(0, 0, 0, 0.4);
+        transition: left 0.6s;
+
+        background: var(--background-color);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    }
+    .logbook_nav.is-active {
+        left: calc(100% - 135px);
     }
     
     .logbook_nav h2 {
@@ -67,21 +79,15 @@ a p {
         padding: 0 0 20px 0;
     }
     
-    /* Show menu when is-active class is added */
-    .logbook_nav.is-active {
-        right: 0; /* Bring into view */
-    }
-    /*               General Styles              */
+
     .menu-container {
         display: block;
-        position: relative;
         position: absolute;
         top: 10px;
         right: 10px;
         z-index: 20;
     }
 
-    /* Burger Icon */
     .burger-menu {
         cursor: pointer;
         width: 30px;
@@ -110,13 +116,7 @@ a p {
     }
 }
 
-#image {
-    width: 50%; 
-    height: auto; 
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
 
 
 article section h4 {
@@ -171,12 +171,26 @@ header {
     font-weight: 700;
 }
 
+.media {
+    margin-bottom: 30px;
+}
 #yt_video {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
     max-width: 600px;
+}
+#image {
+    width: 50%; 
+    height: auto; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hide {
+    display: none;
 }
 
 main section {
@@ -193,5 +207,4 @@ main {
     font-family: 'Roboto Mono', monospace;
     border-bottom: 1px solid var(--text-color);
 }
-
 

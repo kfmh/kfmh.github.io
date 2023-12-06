@@ -61,6 +61,18 @@ function f2(date_str) {
             document.getElementById('yt_video').src = data_json.episode_url;
             document.getElementById('episode-url').textContent = data_json.episode_title;
             // document.getElementById('episode-url').href = data_json.episode_url;
+
+            // Retrieve the yt_video element
+            let ytVideo = document.getElementById('yt_video');
+
+            if (data_json.episode_url === '') {
+                ytVideo.classList.add('hide');
+                ytVideo.src = ''; // Clear the src attribute
+            } else {
+                ytVideo.classList.remove('hide');
+                ytVideo.src = data_json.episode_url; // Set the src attribute
+            }
+            
         })
         .catch(error => console.error('Error fetching data:', error));
 }
