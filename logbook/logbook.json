@@ -3,10 +3,10 @@
         "december": {
             "2023-12-03":{
                     "weekday": "Sunday",
-                    "project":"uw-chess Blindfold chess trainer",
+                    "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Set out to implement speech-to-text (STT) functionality to move chess pieces and text-to-speech (TTS) to hear the move from the chess engine.",
                     "methods":"For generating TTS and STT I’m using Huggingface api-inference. TTS is done with the fastspeech2-en-ljspeech model by Meta, formerly facebook. STT I’m using OpenAI’s whisper-large-v2. To keep expenses low while focusing on interaction design and writing necessary ground architecture, I am using free api-inference endpoints with limited computational power. This leads to slow responses, but for now this is not an issue.",
-                    "insights":"As the purpose of the uw-chess is to play blindfold chess. I haven't put much thought into chess-board rendering. For now the chess-board is rendered with ASCII graphics, this is not a conscious choice, but the default render the python-chess package generates when printing to the terminal window. While testing with ASCII design I noticed how the basic representation of the board is good for practicing with your eyes open. It’s just slightly easier than having your eyes closed. So I will add a flag for choosing ASCII, Classic-2D or only voice.",
+                    "insights":"As the purpose of the uw-chess is to play blindfold Chess.TI haven't put much thought into chess-board rendering. For now the chess-board is rendered with ASCII graphics, this is not a conscious choice, but the default render the python-chess package generates when printing to the terminal window. While testing with ASCII design I noticed how the basic representation of the board is good for practicing with your eyes open. It’s just slightly easier than having your eyes closed. So I will add a flag for choosing ASCII, Classic-2D or only voice.",
                     "conclusions":"uw-chess is coming along nicely, the absolute basics are in place while minor detales still need to be addressed for the POC. Next up is to add conditions to the UCI (Universal Chess Interface) formatting function for the STT response when attempting to castle, or when a pawn reaches the 8th rank.",
                     "image": "./logbook/images/2023-12-03_gameplay.png",
                     "episode_url": "",
@@ -14,13 +14,24 @@
                 },
             "2023-12-04":{
                     "weekday": "Monday",
-                    "project":"uw-chess Blindfold chess trainer",
+                    "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Cleaning up functions with error handling, adding flags for passing arguments like bot difficulty level and chess board graphics. ",
                     "methods":"The whisper-large-v2 STT model is slow and it is becoming frustrating. Switch to a community created distil-whisper model with supposedly faster inference. whisper-large-v2 was api-inference, and distil-whisper is running locally on my apple silicone M2. It should run faster but there is some process taking unnecessary time. Added a Pygame render for the chess board.",
                     "insights":"There is more work revealing itself all the time, but I need to keep it simple and do rapid prototyping.",
                     "conclusions":"Everything takes longer than I think, still making great progress, maybe even moving a little bit too fast. Having lots of fun though, chess is an amazing game and I really can't wait to start playing full games.",
                     "image": "./logbook/images/2023-12-04_gameplay.png",
                     "episode_url": "",
+                    "episode_title": ""
+                },
+            "2023-12-05":{
+                    "weekday": "Tuesday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"Today's objective was to finish the bare minimum to start user testing. This included some basic error handling, cleaning up the game render loop, adding argument parsing for bot difficulty and improving the UCI (Universal Chess Interface) formatting from the speech to text response. I'm the only user at this stage but at the end of the week I should have a functioning python package ready for testing.",
+                    "methods":"For rendering the 2D chess board I'm using Pygame's python package, it gets the job done for rapid prototyping but the package is overkill for just rendering chess moves. Once I have the interaction design working I'll code a custom rendering process. I'm running distil-large-v2, (a distilled version of Open AI’s Whisper model) locally on my Mac M2 and it works really well, but it's a two step process. First there is a speech recognition process, recording the voice and I need to configure it better. A lot of time is wasted on recording audio long after I'm finished talking or it stops recording while I'm still pondering the next move and goes through all the steps after before looping around to recording again. I'll have to configure the ambient noise threshold and shorten the time of listening to silence. For the text to speech I’m using facebook/fastspeech2-en-ljspeech via a Hugging Face api-inference endpoint. This is also slow but I know it’s limited processing for the free API which I’m grateful for. My plan is to find a lightweight model I can run locally or spin up my own inference endpoint and pay for stronger compute power. It is also not so reliable on the TTS, but I believe it has to do with my UCI formatting function.",
+                    "insights":"Recorded my first project demo tonight, wow it’s difficult to be good at sharing the enthusiasm, but I'm really tired and it's late. Marketing is something I’ve been reading and learning more about, it’s a good lesson to force myself to just get something on video even if I'm the only one excited about it.",
+                    "conclusions":" I honestly had a blast today, I finally got to play and I can see myself getting really nerdy with blindfold chess. The goal for tomorrow is to get through a full game, for that i'll need to fix some more bugs.",
+                    "image": "",
+                    "episode_url": "https://www.youtube.com/embed/1wvanX-nkVc?si=2qsHtPq2mhasSZAs",
                     "episode_title": ""
                 }
         }

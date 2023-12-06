@@ -171,6 +171,13 @@ header {
     font-weight: 700;
 }
 
+#yt_video {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+}
 
 main section {
     text-align: justify;

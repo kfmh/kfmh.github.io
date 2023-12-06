@@ -58,8 +58,9 @@ function f2(date_str) {
             document.getElementById('insights').textContent = data_json.insights;
             document.getElementById('conclusions').textContent = data_json.conclusions;
             document.getElementById('image').src = data_json.image;
+            document.getElementById('yt_video').src = data_json.episode_url;
             document.getElementById('episode-url').textContent = data_json.episode_title;
-            document.getElementById('episode-url').href = data_json.episode_url;
+            // document.getElementById('episode-url').href = data_json.episode_url;
         })
         .catch(error => console.error('Error fetching data:', error));
 }
