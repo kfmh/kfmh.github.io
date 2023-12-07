@@ -37,7 +37,7 @@
             "2023-12-06":{
                     "weekday": "Tuesday",
                     "project":"uw-chess Blindfold Chess Trainer",
-                    "objective":"The goal was to complete a full game without the program breaking and to improve the runtime functions, but most of the day was spent on fixing UX on this site, creating Linked In content and planning another project.",
+                    "objective":"The goal was to complete a full game without the program breaking and to improve the runtime functions, but most of the day was spent on fixing UX on this site, scheduling LinkedIn content and planning other projects.",
                     "methods":"The text-to-speech and speech-to-text is far from optimal. Manage to look at the code base but no improvements worth mentioning. In order to complete a python package by monday i'll probably need to rebuild some classes from scratch. The function I'm using now I've copied from another project I’m working on using STT and TTS. ",
                     "insights":"I enjoy designing, drawing and all that jazz, but I hate web design, maybe because I'm not schooled in it or because so much time is wasted on “pixel pushing”. Im really happy with this site now and won't have to work on it for a long time now. ",
                     "conclusions":"Every day can’t be 2 steps forward, today was at least not a step back. What feels good though is keeping this logbook. It is an improvement to my development journey, and I see the value in evaluating the day like this. ",
