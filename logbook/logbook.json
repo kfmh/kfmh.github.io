@@ -29,9 +29,20 @@
                     "objective":"Today's objective was to finish the bare minimum to start user testing. This included some basic error handling, cleaning up the game render loop, adding argument parsing for bot difficulty and improving the UCI (Universal Chess Interface) formatting from the speech to text response. I'm the only user at this stage but at the end of the week I should have a functioning python package ready for testing.",
                     "methods":"For rendering the 2D chess board I'm using Pygame's python package, it gets the job done for rapid prototyping but the package is overkill for just rendering chess moves. Once I have the interaction design working I'll code a custom rendering process. I'm running distil-large-v2, (a distilled version of Open AI’s Whisper model) locally on my Mac M2 and it works really well, but it's a two step process. First there is a speech recognition process, recording the voice and I need to configure it better. A lot of time is wasted on recording audio long after I'm finished talking or it stops recording while I'm still pondering the next move and goes through all the steps after before looping around to recording again. I'll have to configure the ambient noise threshold and shorten the time of listening to silence. For the text to speech I’m using facebook/fastspeech2-en-ljspeech via a Hugging Face api-inference endpoint. This is also slow but I know it’s limited processing for the free API which I’m grateful for. My plan is to find a lightweight model I can run locally or spin up my own inference endpoint and pay for stronger compute power. It is also not so reliable on the TTS, but I believe it has to do with my UCI formatting function.",
                     "insights":"Recorded my first project demo tonight, wow it’s difficult to be good at sharing the enthusiasm, but I'm really tired and it's late. Marketing is something I’ve been reading and learning more about, it’s a good lesson to force myself to just get something on video even if I'm the only one excited about it.",
-                    "conclusions":" I honestly had a blast today, I finally got to play and I can see myself getting really nerdy with blindfold chess. The goal for tomorrow is to get through a full game, for that i'll need to fix some more bugs.",
+                    "conclusions":"I honestly had a blast today, I finally got to play and I can see myself getting really nerdy with blindfold chess. The goal for tomorrow is to get through a full game, for that i'll need to fix some more bugs.",
                     "image": "",
                     "episode_url": "https://www.youtube.com/embed/1wvanX-nkVc?si=2qsHtPq2mhasSZAs",
+                    "episode_title": ""
+                },
+            "2023-12-06":{
+                    "weekday": "Tuesday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"The goal was to complete a full game without the program breaking and to improve the runtime functions, but most of the day was spent on fixing UX on this site, creating Linked In content and planning another project.",
+                    "methods":"The text-to-speech and speech-to-text is far from optimal. Manage to look at the code base but no improvements worth mentioning. In order to complete a python package by monday i'll probably need to rebuild some classes from scratch. The function I'm using now I've copied from another project I’m working on using STT and TTS. ",
+                    "insights":"I enjoy designing, drawing and all that jazz, but I hate web design, maybe because I'm not schooled in it or because so much time is wasted on “pixel pushing”. Im really happy with this site now and won't have to work on it for a long time now. ",
+                    "conclusions":"Every day can’t be 2 steps forward, today was at least not a step back. What feels good though is keeping this logbook. It is an improvement to my development journey, and I see the value in evaluating the day like this. ",
+                    "image": "",
+                    "episode_url": "",
                     "episode_title": ""
                 }
         }
