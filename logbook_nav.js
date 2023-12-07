@@ -58,24 +58,41 @@ function f2(date_str) {
             document.getElementById('insights').textContent = data_json.insights;
             document.getElementById('conclusions').textContent = data_json.conclusions;
             document.getElementById('image').src = data_json.image;
-            document.getElementById('yt_video').src = data_json.episode_url;
-            document.getElementById('episode-url').textContent = data_json.episode_title;
-            // document.getElementById('episode-url').href = data_json.episode_url;
+            document.getElementById('image').alt = data_json.alt_text;
+            document.getElementById('yt_video').src = data_json.video_url;
 
             // Retrieve the yt_video element
             let ytVideo = document.getElementById('yt_video');
+            let media = document.getElementById('media');
 
-            if (data_json.episode_url === '') {
+            if (data_json.video_url === '') {
                 ytVideo.classList.add('hide');
                 ytVideo.src = ''; // Clear the src attribute
+
+                if (data_json.image === '') {
+                    media.classList.add('hide');
+                }
             } else {
                 ytVideo.classList.remove('hide');
-                ytVideo.src = data_json.episode_url; // Set the src attribute
+                ytVideo.src = data_json.video_url; // Set the src attribute
             }
+            if (data_json.image != '' || data_json.video_url != '') {
+                media.classList.remove('hide');
+            }
+
             
         })
         .catch(error => console.error('Error fetching data:', error));
 }
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     const burger = document.getElementById('burgerMenu');
+//     const nav = document.getElementById('logbook_nav');
+
+//     burger.addEventListener('click', function() {
+//         nav.classList.toggle('is-active');
+//     });
+// });
 
 document.addEventListener('DOMContentLoaded', function() {
     const burger = document.getElementById('burgerMenu');
@@ -83,5 +100,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     burger.addEventListener('click', function() {
         nav.classList.toggle('is-active');
+    });
+
+    document.addEventListener('click', function(event) {
+        // Check if the click is outside the nav and burger menu
+        if (!nav.contains(event.target) && !burger.contains(event.target)) {
+            // If nav has 'is-active', remove it
+            if (nav.classList.contains('is-active')) {
+                nav.classList.remove('is-active');
+            }
+        }
     });
 });
