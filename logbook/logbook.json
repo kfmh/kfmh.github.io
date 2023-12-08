@@ -35,7 +35,7 @@
                     "alt_text": ""
                 },
             "2023-12-06":{
-                    "weekday": "Tuesday",
+                    "weekday": "Wednesday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"The goal was to complete a full game without the program breaking and to improve the runtime functions, but most of the day was spent on fixing UX on this site, scheduling LinkedIn content and planning other projects.",
                     "methods":"The text-to-speech and speech-to-text is far from optimal. Managed to look at the code base but no improvements worth mentioning. In order to complete a python package by monday i'll probably need to rebuild some classes from scratch. The function I'm using now I've copied from another project I’m working on using STT and TTS. ",
@@ -46,7 +46,7 @@
                     "alt_text": ""
                 },
             "2023-12-07":{
-                    "weekday": "Tuesday",
+                    "weekday": "Thursday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Yesterday It felt like I was moving sideways and today I was soaring. Took a look at both speech-to-text (STT) and text-to-speech (TTS) to see where I could optimize. Both scripts were initially created for another project using a similar interaction design so it's kind of like I picked a wrench from the toolbox and used it as a wrench as a hammer. ",
                     "methods":"I removed half the STT script because there was only one function I needed, it uses a speech recognition package that I previously only used as an event listener for activating a more robust STT model. Because playing chess only needs short repetitive phrases I wanted to see if the speech recognition process was enough for this purpose. It’s safe to say it was not, but it’s a step forward. I'll need to investigate if I can fine tune it or go back to the old version using a distilled Whisper model which I know I can fine tune. ",
@@ -57,7 +57,7 @@
                     "alt_text": ""
                 },
             "2023-12-08":{
-                    "weekday": "Tuesday",
+                    "weekday": "Friday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Today I took a somewhat educational and creative break. Been reading about AGI and philosophizing about where I could take UW-chess. I still managed to record a new demo with the latest updates, and found some unnecessary  processes I could optimize. The game is slightly improved and I feel confident I'll finish the POC by monday.",
                     "methods":"Implemented a decorator function for login the duration it takes to run functions in the event loop and noticed that rendering the game board was extremely inefficient. Also decreased the sleep() function from 2s to 0.5s. I implemented it to give some space between player actions and chess-bot action. These improvements were done after the demo video. I also drew some chess pieces but they ended up looking really bad when rendered to the board",
