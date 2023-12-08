@@ -44,6 +44,17 @@
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-07":{
+                    "weekday": "Tuesday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"Yesterday It felt like I was moving sideways and today I was soaring. Took a look at both speech-to-text (STT) and text-to-speech (TTS) to see where I could optimize. Both scripts were initially created for another project using a similar interaction design so it's kind of like I picked a wrench from the toolbox and used it as a wrench as a hammer. ",
+                    "methods":"I removed half the STT script because there was only one function I needed, it uses a speech recognition package that I previously only used as an event listener for activating a more robust STT model. Because playing chess only needs short repetitive phrases I wanted to see if the speech recognition process was enough for this purpose. It’s safe to say it was not, but it’s a step forward. I'll need to investigate if I can fine tune it or go back to the old version using a distilled Whisper model which I know I can fine tune. ",
+                    "insights":"I had something good i thought about earlier today, but i can't remember now. Need to start making notes throughout the day.",
+                    "conclusions":"It was a good day, I needed to look at the event loop and specifically the speech to text. Text to speech is fine now for the POC, but I need to work on the audio error messages. I should try doing a real blindfold test tomorrow to get an accurate feel. Probably a lot I'm missing with the blindfold interaction design.",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
