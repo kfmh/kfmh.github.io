@@ -55,6 +55,17 @@
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-08":{
+                    "weekday": "Tuesday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"Today I took a somewhat educational and creative break. Been reading about AGI and philosophizing about where I could take UW-chess. I still managed to record a new demo with the latest updates, and found some unnecessary  processes I could optimize. The game is slightly improved and I feel confident I'll finish the POC by monday.",
+                    "methods":"Implemented a decorator function for login the duration it takes to run functions in the event loop and noticed that rendering the game board was extremely inefficient. Also decreased the sleep() function from 2s to 0.5s. I implemented it to give some space between player actions and chess-bot action. These improvements were done after the demo video. I also drew some chess pieces but they ended up looking really bad when rendered to the board",
+                    "insights":"At this stage the POC is almost ready, but it lacks a lot of interaction design. Tomorrow i'll do test blind folded and from that i'm sure i'll find valuable insights.",
+                    "conclusions":"This isn’t a complicated application, neither the interaction design or the machine learning is advanced at this stage but this project has a lot of hidden possibilities that is exciting to think about. ",
+                    "image": "./logbook/images/chess_pieces.png",
+                    "video_url": "https://www.youtube.com/embed/9C3ttUqd-b4?si=dgzWE9UG5MhxepBp",
+                    "alt_text": ""
                 }
         }
     }
