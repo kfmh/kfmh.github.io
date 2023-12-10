@@ -77,6 +77,17 @@
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-10":{
+                    "weekday": "Sunday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"13:30 - Today I set out to Finish a proof of concept (POC) that can be installed as a python package. The feature I'm most excited about is the random board setup generator. Since it is a training tool for practicing blindfold chess there should be a way of incrementally increasing the difficulty, so there will be 2 parameters for difficulty as part of the POC version. The 1st parameter is the amount of pieces on the board so users can start tracking 4 and gradually increase to - 32 pieces. The 2nd parameter is rendering chess-board coordinate visibility. Board will have 3 levels with easy = (x,y) visible for each tile, moderate = classic coordinates viability showing left column, and bottom rank. And a hard = blank board.",
+                    "methods":"working",
+                    "insights":"working",
+                    "conclusions":"working",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
