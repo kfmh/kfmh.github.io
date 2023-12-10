@@ -66,6 +66,17 @@
                     "image": "./logbook/images/chess_pieces.png",
                     "video_url": "https://www.youtube.com/embed/9C3ttUqd-b4?si=dgzWE9UG5MhxepBp",
                     "alt_text": ""
+                },
+            "2023-12-09":{
+                    "weekday": "Saturday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"Testing blindfold interaction design to find where I should focus improvements before finalizing the proof of concept for monday. Besides playing a lot of games another way of practicing chess is to look at specific scenarios, but the first step of blindfold chess is to practice awareness so implementing a function for randomly generating a number of pieces to start with. For example starting with only 8 pieces in total on the board.  This would be an intermediary level to practice board awareness, and gradually increase how many pieces to keep track of.",
+                    "methods":"The first thing that is disorienting is the speech-to-text record looping. There is a short gap when the loop circles back around where it isn't recording. To mitigate this poor interaction for now I have an alert sound for each cycle not returning a proper UCI string, but I'm working on making the STT recording and speech analysis asynchronous function that can run continuously so there isn’t a gap between each cycle. The function for generating a random chess scenario with a specific set of pieces is for now a loop that plays the game until the desired amount of pieces are left, then the function returns all the moves made and the current board for the user to take over. ",
+                    "insights":"For the POC I will focus on the new function for random board generation, and the STT loop async architecture. I'm very new to working with asynchronous functions so this is a bit of a challenge but it will improve the overall experience.",
+                    "conclusions":"I'm not sure i'll finish till monday, but one full day should be enough for this. It doesn't feel like much left but it probably is. ",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
