@@ -103,8 +103,8 @@
                     "objective":"Today's main focus is to finalize the proof of concept and python package. The application is far from decent but it works enough to get a feel for its potential. Going over the code today I'll implement an “Occam's razor” approach, simplify and remove rather than write more lines - [09:00].",
                     "methods":"",
                     "agenda":["Argpaser for chess engine path", "Update readme with Installation and usage instructions", "Write basic documentation", "Improve code comments, docstrings and readability", "Film a demo video"],
-                    "insights":"",
-                    "conclusions":"",
+                    "insights":"Creating a well structured base architecture and comprehensive documentation from the start will make this project a lot more manageable for future improvements and ideas. It’s amazing how much faster I can work when I can generate boilerplate on the fly. Feel like I'm one of 5 people - [13.00]. The “Read Me” is updated with installation instructions and basic requirements. Haven't really done any logic updates, but will dedicate the rest of the week for that and proper documentation - [16.00].",
+                    "conclusions":"Like I stated in today's objective “The application is far from decent” but boy does it feel good to push Undr Wolf V1 - [16.00].",
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
