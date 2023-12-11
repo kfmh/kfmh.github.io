@@ -55,15 +55,21 @@ a p {
         width: 90%;
         margin: 0 auto;
     }
+
+
+
     #project_title{
         /* border-top: 2px solid var(--text-color); */
-        margin: 40px 0 0 0;
+        margin: 40px 0 0 20px;
         padding: 30px 0 5px 0;
     }
     #logbook_title {
         border-top: 2px solid var(--text-color);
-        margin: 30px 0 0 0;
+        margin: 30px 20px 0 20px;
         padding: 30px 0 5px 0;
+    }
+    .logbook_nav div a {
+        margin-left: 20px;
     }
     .logbook_nav {
         position: fixed; 
@@ -72,22 +78,26 @@ a p {
         padding: 15px 20px 20px 20px;
         left: 100%; 
         top: 0;
-        width: 100px;
+        width: 165px;
         z-index: 10;
         height: 100vh;
         transition: left 0.6s;
-
+        
         background: var(--background-color);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
     }
+    
+    .logbook_nav a{
+        margin-left: 20px;
+    }
+
+    
     .logbook_nav.is-active {
-        left: calc(100% - 135px);
+        left: calc(100% - 200px);
     }
     
     .logbook_nav h2 {
         font-size: 1rem;
-        margin: 0;
-        padding: 0 0 20px 0;
     }
     
 
@@ -142,9 +152,6 @@ a p {
         display: none;
     }
 }
-
-
-
 
 article section h4 {
     margin: 0 0 5px 0;
