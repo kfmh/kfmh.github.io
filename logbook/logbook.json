@@ -116,7 +116,7 @@
                     "methods":"It seems like multiprocessing will work best, even though the workload now is simple, sperateing recording and analyzing on dedicated processes leaves upside to add on to the STT functionality - [21:00].",
                     "agenda":[""],
                     "insights":"Natural communication with AI is very interesting, while it isn’t anything innovative in and of itself. Creating natural voice communion for the user is a very interesting challenge, most of all because I have to evaluate how the system should process the information. I.e 2 cognitive processes sharing information while continuously working, like the brain. We as humans don’t process synchronously, or asynchronously. It feels closer to multiprocessing - [21:00].",
-                    "conclusions":"This is a milestone for me in my developer journey, I can see how powerful multiprocessing is when building AI applications - [21:00].",
+                    "conclusions":"Did not get much done on the uw_chess, but did move the needle slightly. Testing multiprocessing is a milestone for me in my developer journey. I can see how powerful multiprocessing is when building AI applications - [21:00].",
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
