@@ -126,9 +126,9 @@
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Create a working multiprocessing script for speech to text STT, so that no speech is missed. If I create a working function for this I can later switch out the model doing the analysis to a stronger to improve reliability and over all interaction design - [08:30].",
                     "agenda":["STT multiprocessing prototype", "Revise 'Read Me'", "Revise code documentation"],
-                    "methods":"",
-                    "insights":"",
-                    "conclusions":"",
+                    "methods":"The STT multiprocessing is beautiful, although I still have the problem of having och cuts in the middle of sentences. I'll mitigate this by implementing a rolling window of recorded data, and create a python package for real time STT that I can use in the  uw_chess - [16:00]. Updated Readme and added some more visuals - [20:00]",
+                    "insights":"The philosophy of mind is a topic I'm passionate about, and after building with multiprocessing  I get reminded of the integrated information theory of consciousness. Admittedly my understanding of the concept is superficial. But I think multiprocessing falls in line with that theory - [16:00].",
+                    "conclusions":"Got to work harder, might have to many balls in the air, this logbook is only tracking one project by choice. This logbooks helps me have one project grounded and steady - [00:00].",
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
