@@ -110,13 +110,25 @@
                     "alt_text": ""
                 },
             "2023-12-12":{
-                    "weekday": "Monday",
+                    "weekday": "Tuesday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Today is an educational day, going to dive into asynchronous programming, threading and multiprocessing. One of these approaches will improve the interaction with the speech-to-text STT event. Since one event is recording and the other is analyzing the recording, this should be possible to continuously record and analyze in tandem, so thus to not have a break not noticeable to the user, leading to disorientation - [09:00].",
                     "methods":"It seems like multiprocessing will work best, even though the workload now is simple, sperateing recording and analyzing on dedicated processes leaves upside to add on to the STT functionality - [21:00].",
                     "agenda":[""],
                     "insights":"Natural communication with AI is very interesting, while it isn’t anything innovative in and of itself. Creating natural voice communion for the user is a very interesting challenge, most of all because I have to evaluate how the system should process the information. I.e 2 cognitive processes sharing information while continuously working, like the brain. We as humans don’t process synchronously, or asynchronously. It feels closer to multiprocessing - [21:00].",
                     "conclusions":"Did not get much done on the uw_chess, but did move the needle slightly. Testing multiprocessing is a milestone for me in my developer journey. I can see how powerful multiprocessing is when building AI applications - [21:00].",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
+                },
+            "2023-12-13":{
+                    "weekday": "Wednesday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"Create a working multiprocessing script for speech to text STT, so that no speech is missed. If I can create a working function for i can later switch out the model doing the analysis to a strong to improve reliability and over all interaction experience - [05:00].",
+                    "methods":"",
+                    "agenda":[""],
+                    "insights":"",
+                    "conclusions":"",
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
