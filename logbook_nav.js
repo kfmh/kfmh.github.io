@@ -1,5 +1,21 @@
 let currentSelectedLink = null;
 
+// Function to populate the agenda section
+function populateAgenda(agendaItems) {
+    let agendaSection = document.getElementById('agenda');
+    let agenda_div = document.getElementById('agenda_div');
+    // Clear existing content
+    agendaSection.innerHTML = '';
+    let ul = document.createElement('ul');
+    agendaItems.forEach(item => {
+        let li = document.createElement('li');
+        li.textContent = item;
+        ul.appendChild(li);
+    });
+    agendaSection.appendChild(ul);
+    
+}
+
 // Function to load and display logbook data for a given date
 function f2(date_str) {
     fetch('./logbook/logbook.json')
@@ -34,6 +50,14 @@ function f2(date_str) {
             }
             if (data_json.image != '' || data_json.video_url != '') {
                 media.classList.remove('hide');
+            }
+
+            // Populate the agenda section
+            if (data_json.agenda.length > 0) {
+                agenda_div.classList.remove('hide');
+                populateAgenda(data_json.agenda);
+            } else {
+                agenda_div.classList.add('hide');
             }
         })
         .catch(error => console.error('Error fetching data:', error));
@@ -93,4 +117,4 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     });
-}, );
+});
