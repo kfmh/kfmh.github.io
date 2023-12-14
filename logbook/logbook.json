@@ -132,6 +132,18 @@
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-14":{
+                    "weekday": "Thursday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"There's a lot I want to get done today, the uw_realtime_stt package is the main focus. This will be a keystone for other projects I’m planning. What’s left for uw_realtime_stt 1.0.0-alpha is a rolling window analysis loop to mitigate cuts in the recording where audio is missed - [08:00]",
+                    "agenda":["Rolling window analysis loop", "alpha build", "Demo video"],
+                    "methods":"",
+                    "insights":"",
+                    "conclusions":"",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
