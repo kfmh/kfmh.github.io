@@ -138,10 +138,10 @@
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"There's a lot I want to get done today, the uw_realtime_stt package is the main focus. This will be a keystone for other projects I’m planning. What’s left for uw_realtime_stt 1.0.0-alpha is a rolling window analysis loop to mitigate cuts in the recording where audio is missed - [08:00]",
                     "agenda":["Rolling window analysis loop", "alpha build", "Demo video"],
-                    "methods":"",
-                    "insights":"",
-                    "conclusions":"",
-                    "image": "",
+                    "methods":"The rolling window isn’t going to work, it splits up audio in a uniform sequence, which leads to cuts in the middle of words. When the model predicts a sentence, it doesn't predict word by word, but makes a prediction on the entire audio, so if one word is cut off i will alter the rest of the sentence as well - [16:00]. Image above show's the last failed test of me reading a section from the logbook. “pyproject.toml” and directory structure is good to go as soon I'm ready with the buffer functionality for the audio stream - [01:30 Friday]",
+                    "insights":"All of this is new and today it’s clear that I don't know enough to have an accurate feel for how long this is going to take. In essence I'm doing it correctly by creating a buffer, but my method of creating the buffer is a bit jerry-rigged. [01:30 Friday]",
+                    "conclusions":"Ended the last coding session in a bad mood but had a really good blitz streak on chess.com for the past like 4h. Really tired now, but excited to finish this chess app. It’s going to feel great playing when it’s done - [01:30 Friday]",
+                    "image": "./logbook/images/2023-12-14.png",
                     "video_url": "",
                     "alt_text": ""
                 }
