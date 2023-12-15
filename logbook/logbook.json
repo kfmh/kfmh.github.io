@@ -148,11 +148,11 @@
             "2023-12-15":{
                     "weekday": "Friday",
                     "project":"uw-chess Blindfold Chess Trainer",
-                    "objective":"Heading out to do some errands for the day but I'll squeeze in a session for the evening. It’s only one thing on the agenda, it feels better to add later on rather than not complete a task. Probably going to play some Blitz on chess.com to. It’s Friday after all - [10:30].",
+                    "objective":"Heading out to do some errands for the day but I'll squeeze in a session for the evening. It’s only one thing on the agenda, it's going to feel better adding tasks later, rather than not completing the task. Probably going to play some Blitz on chess.com to. It’s Friday after all - [10:30]",
                     "agenda":["Build and test audio buffer"],
-                    "methods":"",
-                    "insights":"",
-                    "conclusions":"",
+                    "methods":"Barely got an hour coding on the real-time script, most just googling. Made one test with the buffer. I need to look at the appending buffer and stream to analyze workflow - [01:00 Saturday]",
+                    "insights":"Nothing worth mentioning - [01:00 Saturday]",
+                    "conclusions":"I know what to do now - [01:00 Saturday]",
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
