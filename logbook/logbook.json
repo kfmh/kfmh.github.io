@@ -156,6 +156,18 @@
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-16":{
+                    "weekday": "Saturday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"Same thing as yesterday. The problem I'm having with realtime speech-to-text STT is that at some point the recording has to be cut and passed to the analyze function to predict the text. If a word is cut off it will alter the parts or the entire sentence to grammatically fit the sound of the word that is cut off in the end or beginning. To mitigate this the buffer should only be flushed when there is a clear pause in a sentence. Until it is flushed the whole buffer data will be analyzed on each iteration that sound is appended. This part is relatively straightforward using python multiprocessing, but it’s the audio streaming to the buffer I'm not sure how to implement correctly, it must be continuous without any sort of break. I've tried running two recording functions in tandem, but the library I'm using for audio recording isn’t meant to function like this. I might have to create my own for this. First I'll do some tests of asynchronous recording event loops and see if that is enough  - [14:00].",
+                    "agenda":["Build and test audio buffer"],
+                    "methods":"",
+                    "insights":"Played chess until 4 in the morning. Had to blow off steam because of the lack of progress with the audio-buffer. At the end I was playing so badly that the attempt to blow off steam was counterproductive, it was still fun and I feel mentally and creatively replenished. - [14:00].", 
+                    "conclusions":"",
+                    "image": "./logbook/images/2023-12-16_sketch.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
