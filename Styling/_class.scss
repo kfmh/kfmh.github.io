@@ -1,0 +1,71 @@
+.profile-pic {width: 150px;}
+
+.title h1 {
+    margin: 0;
+}
+.title h3 {
+    margin: 0;
+}
+
+.links {
+    width: 300px;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+.links img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30px;
+    height: auto;
+}
+.links a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.links p {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.selected {
+    font-weight: 700;
+}
+
+.media {
+    /* margin-bottom: 30px; */
+}
+#yt_video {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+}
+#image {
+    width: 90%;
+    max-width: 800px; 
+    height: auto; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hide {
+    display: none;
+}
+
+.logbook_nav a {
+    width: fit-content;
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 1px solid var(--text-color);
+}

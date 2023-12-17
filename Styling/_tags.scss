@@ -1,0 +1,58 @@
+:root {
+    --text-color:rgb(80, 80, 80);
+    --link-color:#83a5a5;
+    --background-color:rgb(245, 245, 240);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
+
+a p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+article {
+    line-height: 1.4rem;
+}
+
+article section h4 {
+    margin: 0 0 5px 0;
+}
+article section p{
+    margin: 0 0 25px 0;
+    font-weight: 400;
+}
+
+header {
+    padding-top:40px ;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    border-bottom: 4px solid var(--text-color) ;
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section {
+    text-align: justify;
+}
+main {
+    padding-bottom: 40px;
+}
