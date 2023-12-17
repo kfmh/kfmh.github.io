@@ -34,7 +34,8 @@ a p {
     font-weight: 100;
 }
 
-.profile-pic {width: 150px;}
+
+
 
 @media only screen and (max-width: 600px) {
     header {
@@ -154,6 +155,15 @@ a p {
     }
 }
 
+/* ============== */
+
+
+
+
+article {
+    line-height: 1.4rem;
+}
+
 article section h4 {
     margin: 0 0 5px 0;
 }
@@ -170,6 +180,15 @@ header {
     width: 90%;
     margin: 0 auto;
 }
+
+main section {
+    text-align: justify;
+}
+main {
+    padding-bottom: 40px;
+}
+
+.profile-pic {width: 150px;}
 
 .title h1 {
     margin: 0;
@@ -227,13 +246,6 @@ header {
 
 .hide {
     display: none;
-}
-
-main section {
-    text-align: justify;
-}
-main {
-    padding-bottom: 40px;
 }
 
 .logbook_nav a {
