@@ -174,9 +174,9 @@
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Today is the day to “Get everything to sing!“, not that confident I’ll finish it today, but as soon as the speech-to-text works I can then implement it into uw_chess. The speech to text package will also be a substantial feature on another project in the pipeline - [11:00]",
                     "agenda":["Buffer and analysis workflow", "Recode demo video"],
-                    "methods":"",
-                    "insights":"", 
-                    "conclusions":"",
+                    "methods":"The buffer works well but needs some optimizations for the condition that flushes the buffer when detecting silence. I ran into data conversion errors when analyzing and transcribing the audio. It works with the Whisper-STT model because it uses the same bytes data as the buffer stores the audio, but the free whisper API from Hugging Face interference is too slow for analyzing streams of audio. I would like to keep testing the workflow with google’s STT api, so I need to fix the conversion. It’s probably not a big issue to fix, I'm just not focused today. - [00:00].",
+                    "insights":"Nothing worth mentioning - [00:00].", 
+                    "conclusions":"Might be spreading myself too thin, I’ve gotten other important work done but I haven't given this STT my full attention this weekend. Haven’t rested property, need to get back to a better sleep cycle. It’s a new week tomorrow and it feels good!  - [00:00].",
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
