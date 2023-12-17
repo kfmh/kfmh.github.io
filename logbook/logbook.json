@@ -168,6 +168,18 @@
                     "image": "./logbook/images/2023-12-16_sketch.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-17":{
+                    "weekday": "Sunday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"Today is the day to “Get everything to sing!“, not that confident I’ll finish it today, but as soon as the speech-to-text works I can then implement it into uw_chess. The speech to text package will also be a substantial feature on another project in the pipeline - [11:00]",
+                    "agenda":["Buffer and analysis workflow", "Recode demo video"],
+                    "methods":"",
+                    "insights":"", 
+                    "conclusions":"",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
