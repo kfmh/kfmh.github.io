@@ -180,6 +180,18 @@
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-18":{
+                    "weekday": "Monday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"New week, an opportunity to start fresh. I have projected down the pipeline that relies heavily on this speech to text component for uw_chess. I will make it work today - [07:00].",
+                    "agenda":["Buffer and analysis workflow", "Recode demo video"],
+                    "methods":"",
+                    "insights":"Started the morning listening to Elon Musk’s biography, it makes me want to work harder. I know what must be done, but lack consistency. Can’t rely on motivation, I need to update the system by which I operate - [07:00].", 
+                    "conclusions":"",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
