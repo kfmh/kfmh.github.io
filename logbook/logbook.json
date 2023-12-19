@@ -186,11 +186,11 @@
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"New week, an opportunity to start fresh. I have projected down the pipeline that relies heavily on this speech to text component for uw_chess. I will make it work today - [07:00].",
                     "agenda":["Buffer and analysis workflow", "Recode demo video"],
-                    "methods":"",
+                    "methods":"I’m so close, and really tired, I just need one or two more days before integrating this new STT to uw_chess. I’ve left google STT api behind one back to run Distil whisper-large locally. It works well but I keep getting a message that I need to add special tokens that it has not been trained on, which is really strange. I’ll look into what tokens are not included tomorrow- [Tuesday 02:00].",
                     "insights":"Started the morning listening to Elon Musk’s biography, it makes me want to work harder. I know what must be done, but lack consistency. Can’t rely on motivation, I need to update the system by which I operate - [07:00].", 
-                    "conclusions":"",
-                    "image": "",
-                    "video_url": "",
+                    "conclusions":"Once I get this to work properly, I'm going to buy a box of wine and play chess until the box is empty - [Tuesday 02:00].",
+                    "image": "./logbook/images/2023-12-16_sketch.png",
+                    "video_url": "https://youtu.be/QTmYrX1jGj0?si=Aj5uhksfuOhz_0X7",
                     "alt_text": ""
                 }
         }
