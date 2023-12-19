@@ -190,7 +190,19 @@
                     "insights":"Started the morning listening to Elon Musk’s biography, it makes me want to work harder. I know what must be done, but lack consistency. Can’t rely on motivation, I need to update the system by which I operate - [07:00].", 
                     "conclusions":"Once I get this to work properly, I'm going to buy a box of wine and play chess until the box is empty - [Tuesday 02:00].",
                     "image": "./logbook/images/2023-12-16_sketch.png",
-                    "video_url": "https://youtu.be/QTmYrX1jGj0?si=Aj5uhksfuOhz_0X7",
+                    "video_url": "https://www.youtube.com/embed/QTmYrX1jGj0?si=6WBilxkGkbsHeVbr",
+                    "alt_text": ""
+                },
+            "2023-12-19":{
+                    "weekday": "Tuesday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"I’d like to finish what I believe to be the most critical components (listed below) that need to be addressed before I can move on to implementing uw_realtime_stt into uw_chess. The special tokens warning is driving me crazy, I need to figure out how to list the tokens that are not in the  tokenizer. Which seems to be like a needle in a haystack, there has to be a simple solution to this - [09:00].",
+                    "agenda":["special tokens warning", "Install package test", "Improve responsiveness and speed", "Write Readme.md"],
+                    "methods":"",
+                    "insights":"", 
+                    "conclusions":"",
+                    "image": "",
+                    "video_url": "",
                     "alt_text": ""
                 }
         }
