@@ -197,11 +197,11 @@
                     "weekday": "Tuesday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"I’d like to finish what I believe to be the most critical components (listed below) that need to be addressed before I can move on to implementing uw_realtime_stt into uw_chess. The special tokens warning is driving me crazy, I need to figure out how to list the tokens that are not in the  tokenizer. Which seems to be like a needle in a haystack, there has to be a simple solution to this - [09:00].",
-                    "agenda":["special tokens warning", "Install package test", "Improve responsiveness and speed", "Write Readme.md"],
-                    "methods":"",
-                    "insights":"", 
-                    "conclusions":"",
-                    "image": "",
+                    "agenda":["special tokens warning", "Install package test", "Improve responsiveness and speed"],
+                    "methods":"The warning message might be a conflict with how the distill-whisper fork and the original whisper model are integrated with the transformers API, it’s a guess, but i don’t know. What I do know is that I need to create my own fine tuned version specifically for chess moves. Eny how, suppressed the message with a logging condition, not good practice but this isn’t the final product - [23:00]",
+                    "insights":"Automatic speech recognition is like the phenomenon when lyrics in songs sound different depending on the listeners because the utterances of different sentences are phonetically sound very similar. Context is very important, and humans are very good at interpreting context. How do I design context? - [23.00]", 
+                    "conclusions":"It’s late now - [01.30 wednesday]",
+                    "image": "./logbook/images/2023-12-19.png",
                     "video_url": "",
                     "alt_text": ""
                 }
