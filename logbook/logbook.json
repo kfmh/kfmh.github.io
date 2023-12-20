@@ -204,6 +204,18 @@
                     "image": "./logbook/images/2023-12-19.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-20":{
+                    "weekday": "Wednesday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"Uw_realtime_stt is far from great, I might spin up a hugging face inference endpoint and test the speed improvement from stronger GPUs. 'perfection is the enemy of progress' and I need to move on. Once I've tried the uw_chess app with the modified STT I can rank what process needs to be received first - [08:30]",
+                    "agenda":["Test Install package, commit-push", "Write Readme.md", "Test integrate with uw-chess"],
+                    "methods":"|----|",
+                    "insights":"I don’t think anyone is reading this logbook, but I feel a need to put more effort and care into it. If someone visits this logbook, it’s a snapshot of time and whatever they read will be the first impression that either captivates or repelle’s their attention. But also for my own sake, I can see myself reading this in the future and remembering what went down - [08:30]", 
+                    "conclusions":"|----|",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
