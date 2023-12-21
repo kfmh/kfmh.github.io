@@ -216,6 +216,18 @@
                     "image": "./logbook/images/2023-12-20.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-21":{
+                    "weekday": "Thursday",
+                    "project":"uw-chess Blindfold Chess Trainer",
+                    "objective":"Heading out for errands today, leaving limited time for coding. However, if the schedule allows, I’ll test integrating uw_realtime_stt into uw_chess. This has the potential to be a significant milestone. Although achieving this today seems improbable, the performance of whisper-distill is promisingly above average. Nonetheless, it requires further refinement to optimally and reliably register UCI moves - [08:30]",
+                    "agenda":["uw_chess integration "],
+                    "methods":"|----|",
+                    "insights":"|----|", 
+                    "conclusions":"|----|",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
