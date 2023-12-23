@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karl-Fredrik</title>
+    <style>
+        body {
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #pdf-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        canvas {
+            max-width: 1100px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+            border-radius: 4px;
+            box-shadow: 4px 13px 20px rgba(0, 0, 0, 0.8); /* Inner bottom right shadow */
+        }
+        .download-button {
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <!-- Dropdown for selecting PDFs -->
+        <select id="pdf-selector" onchange="window.updatePDFUrl()">
+            <option value="./pdf/Docstring.pdf">Docstring</option>
+        </select>
+        <button class="download-button" onclick="window.downloadPDF()">Download PDF</button>
+    </footer>
+    <div id="pdf-container"></div> <!-- Container for all canvas elements -->
+
+    <footer>
+        <button class="download-button" onclick="window.downloadPDF()">Download PDF</button>
+    </footer>
+    <script type="module">
+        let url = './pdf/Docstring.pdf'; // Global URL variable
+        let filename = 'download.pdf'; // Global URL variable
+        const pdfContainer = document.getElementById('pdf-container'); // Define pdfContainer globally
+    
+        window.updatePDFUrl = function updatePDFUrl() {
+            const pdfSelector = document.getElementById('pdf-selector');
+            url = pdfSelector.value + '?v=' + new Date().getTime(); // Cache busting
+            filename = pdfSelector.value.substring(6);
+            console.log(url);
+            loadPDF();
+        }
+    
+        window.downloadPDF = function downloadPDF() {
+            const link = document.createElement('a');
+            link.href = url; // Use the current URL of the PDF
+            link.download = filename; // Set a default filename for the download
+            document.body.appendChild(link); // Append to the body
+            link.click(); // Trigger the download
+            document.body.removeChild(link); // Remove the link after triggering
+        }
+    
+        async function loadPDF() {
+            const pdfjsLib = await import('../../../pdfjs-4.0.269-dist/build/pdf.mjs');
+            pdfjsLib.GlobalWorkerOptions.workerSrc = '../../../pdfjs-4.0.269-dist/build/pdf.worker.mjs';
+    
+            try {
+                const pdfDoc = await pdfjsLib.getDocument(url).promise;
+                pdfContainer.innerHTML = ''; // Clear existing PDF
+                for (let pageNum = 1; pageNum <= pdfDoc.numPages; pageNum++) {
+                    await renderPage(pdfDoc, pageNum);
+                }
+            } catch (error) {
+                console.error('Error loading PDF:', error);
+            }
+        }
+    
+        async function renderPage(pdfDoc, pageNum) {
+            const page = await pdfDoc.getPage(pageNum);
+            const pixelRatio = window.devicePixelRatio || 1;
+            const viewport = page.getViewport({scale: 2 * pixelRatio});
+            
+            const canvas = document.createElement('canvas');
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+            canvas.style.maxWidth = '900px';
+            canvas.style.width = '100%';
+            canvas.style.height = 'auto';
+    
+            const renderContext = {
+                canvasContext: canvas.getContext('2d'),
+                viewport: viewport
+            };
+            
+            await page.render(renderContext).promise;
+            pdfContainer.appendChild(canvas);
+        }
+    
+        loadPDF(); // Initial load with default URL
+    </script>
+    
+</body>
+</html>

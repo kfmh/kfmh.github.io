@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-document.querySelector('.more-button').addEventListener('click', function() {
-    // Add your functionality here
-    alert('More button clicked!');
-});
+// document.querySelector('.more-button').addEventListener('click', function() {
+//     // Add your functionality here
+//     alert('More button clicked!');
+// });
