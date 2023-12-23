@@ -228,6 +228,18 @@
                     "image": "./logbook/images/2023-12-21.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-22":{
+                    "weekday": "Friday",
+                    "project":"",
+                    "objective":"On Saturday I'll start promoting my github page on Linkedin. In preparation for that i’ll update the logbook with a pdf section for LaTex articles I write. - [11:00].",
+                    "agenda":["Render PDF document to web browsers", "Update Resume button to a drop down “more” button"],
+                    "methods":"Rendering a PDF to web browsers is more difficult than I thought. Found a javascript library pdf.js that solved most issues - [00:00]",
+                    "insights":"I'm good at design and enjoy making things look nice but I don’t like web developing, it is a necessary and valuable skill. But I find myself 'pixel pushing most of the time' - [00:00]", 
+                    "conclusions":"Thank god for chat gpt, it speeds up small web updates like this - [00:00",
+                    "image": "./logbook/images/2023-12-22.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
