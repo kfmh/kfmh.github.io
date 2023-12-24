@@ -240,18 +240,6 @@
                     "image": "./logbook/images/2023-12-22.png",
                     "video_url": "",
                     "alt_text": ""
-                },
-            "2023-12-23":{
-                    "weekday": "Saturday",
-                    "project":"Logbook",
-                    "objective":"",
-                    "agenda":["Pdf.js for mobile view"],
-                    "methods":"",
-                    "insights":"", 
-                    "conclusions":"",
-                    "image": "./logbook/images/2023-12-22.png",
-                    "video_url": "",
-                    "alt_text": ""
                 }
         }
     }
