@@ -8,15 +8,25 @@
       margin: 0;
       padding: 0;
       font-family: Arial, Helvetica, sans-serif;
+      overflow: hidden; /* Hide scrollbars */
     }
     #pdf-js-viewer {
-      width: 100%;
-      height: 100%;
-      border: none; /* Removes the default border */
+      width: 100vw; /* Viewport width */
+      height: 100vh; /* Viewport height */
+      border: none;
     }
     .pdf-container {
-      width: 100%;
-      height: 100%;
+      position: fixed; /* Fixed position */
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    @media screen and (max-width: 600px) { /* Mobile devices */
+      .pdf-container, #pdf-js-viewer {
+        width: 100vw;
+        height: 100vh;
+      }
     }
   </style>
 </head>
