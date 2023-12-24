@@ -4511,9 +4511,10 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   };
 }
+
 {
   defaultOptions.defaultUrl = {
-    value: "Resume.pdf",
+    value: "Algebra.pdf",
     kind: OptionKind.VIEWER
   };
   defaultOptions.disablePreferences = {
@@ -4529,6 +4530,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER
   };
 }
+
 const userOptions = Object.create(null);
 class AppOptions {
   constructor() {
@@ -4579,7 +4581,6 @@ class AppOptions {
     delete userOptions[name];
   }
 }
-
 
 /***/ }),
 
