@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hello world!</title>
-  </head>
-  <body style="font-family:Arial Helvetica, sans-serif">
+<head>
+  <title>Hello world!</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #pdf-js-viewer {
+      width: 100%;
+      height: 100%;
+      border: none; /* Removes the default border */
+    }
+    .pdf-container {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
 
-    <div style="width:760px">
-      <h2>About Us</h2>
-      <p>We help software developers do more with PDFs. PDF.js Express gives a flexible and modern UI to your PDF.js viewer while also adding out-of-the-box features like annotations, form filling and signatures.</p>
+  <div class="pdf-container">
+      <iframe id="pdf-js-viewer" src="./assets/pdf/Resume.pdf" title="webviewer"></iframe>
+  </div>
 
-        <!--
-          Place the following <div> element where you want the PDF to be displayed in your website. You can adjust the size using the width and height attributes.
-        -->
-        <div>
-            <iframe id="pdf-js-viewer" src="./assets/pdf/Resume.pdf" title="webviewer" frameborder="0" width="500" height="600"></iframe>
-        </div>
-
-    </div>
-  </body>
+</body>
 </html>
