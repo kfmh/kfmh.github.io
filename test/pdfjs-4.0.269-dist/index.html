@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Hello world!</title>
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      overflow: hidden; /* Hide scrollbars */
-    }
-    #pdf-js-viewer {
-      width: 100vw; /* Viewport width */
-      height: 100vh; /* Viewport height */
-      border: none;
-    }
-    .pdf-container {
-      position: fixed; /* Fixed position */
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
-    @media screen and (max-width: 600px) { /* Mobile devices */
-      .pdf-container, #pdf-js-viewer {
-        width: 100vw;
-        height: 100vh;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; 
+  }
+  #pdf-js-viewer {
+    width: 100vw; 
+    height: 100vh; 
+    border: none;
+  }
+  .pdf-container {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  @media screen and (max-width: 600px) { /* Mobile devices */
+    .pdf-container, #pdf-js-viewer {
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+</style>
 <body>
-
   <div class="pdf-container">
-      <iframe id="pdf-js-viewer" src="./assets/pdf/Resume.pdf" title="webviewer"></iframe>
+    <iframe id="pdf-js-viewer" src="./assets/pdf/Resume.pdf" title="webviewer"></iframe>
   </div>
-
 </body>
 </html>
+
+
