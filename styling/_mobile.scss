@@ -2,12 +2,14 @@
     header {
         flex-direction: column;
     }
+
     .title h1 {font-size: 1.4rem;}
     .title h3 {font-size: 1;}
     .title {margin-bottom: 10px;}
     .links {
         margin: 0 auto;
     }
+    
     main {
         width: 100%;
         display: flex;
@@ -17,8 +19,6 @@
         width: 90%;
         margin: 0 auto;
     }
-
-
 
     #project_title{
         /* border-top: 2px solid var(--text-color); */
@@ -101,5 +101,9 @@
         /* height: 6px;
         background-color: var(--text-color);
         border-radius: 3px; */
+    }
+
+    .pdf-docs {
+        padding: 10px 0 0 40px;
     }
 }
