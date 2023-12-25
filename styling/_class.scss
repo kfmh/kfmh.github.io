@@ -70,12 +70,29 @@
     border-bottom: 1px solid var(--text-color);
 }
 
-.more-button {
-    padding: 10px 20px;
-    background-color: #4CAF50; /* Example color */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+// .more-button {
+//     padding: 10px 20px;
+//     background-color: transparent;
+//     color: white;
+//     border: none;
+//     border-radius: 5px;
+//     cursor: pointer;
+//     font-size: 16px;
+// }
+
+
+.pdf-docs a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.pdf-docs a:hover {
+    text-decoration: underline;
+}
+.pdf-docs div {
+    margin: 10px 0 20px 0;
+}
+
+.pdf-docs h3 {
+    margin: 0;
+    padding: 0;
 }
