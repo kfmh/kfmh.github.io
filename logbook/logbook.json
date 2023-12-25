@@ -241,13 +241,13 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-22":{
+            "2023-12-25":{
                     "weekday": "Friday",
                     "project":"Logbook",
                     "objective":"Chrisman is over and I might as well start 2024 a week early. Going to iniate some marketing experiments in anticipaton for coming product launches and start building a physicalblckboard for scheduling and planning - [11:30]",
                     "agenda":["Blackboard", "Multiple answer countdown"],
-                    "methods":"",
-                    "insights":"", 
+                    "methods":"__",
+                    "insights":"__", 
                     "conclusions":"",
                     "image": "./logbook/images/2023-12-25.png",
                     "video_url": "",
