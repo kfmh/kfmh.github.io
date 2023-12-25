@@ -244,11 +244,11 @@
             "2023-12-25":{
                     "weekday": "Friday",
                     "project":"Logbook",
-                    "objective":"Chrisman is over and I might as well start 2024 a week early. Going to iniate some marketing experiments in anticipaton for coming product launches and start building a physicalblckboard for scheduling and planning - [11:30]",
+                    "objective":"Christmas is over and I am eager to start 2024 early. Going to initiate some marketing experiments in anticipation for coming product launches and start building a physical blackboard for scheduling and planning - [11:30]",
                     "agenda":["Blackboard", "Multiple answer countdown"],
-                    "methods":"__",
-                    "insights":"__", 
-                    "conclusions":"",
+                    "methods":"For the multiple answer quizzes program I'm using the ‘tqdm’ library for visualizing progress bars and ‘rich’ library for creating and updating tables in the shell. I'll probably have time to finish the blackboard tomorrow - [22:30]",
+                    "insights":"Multiple answer quizzes is a popular method for educational content. I got the inspiration from a post linked in for countdown to the correct answer. It makes for engaging content, latching on to human curiosity. I will make this a feature in an upcoming flagship project - [22:30]", 
+                    "conclusions":"This was a good day, and 2024 feels promising - [22:30]",
                     "image": "./logbook/images/2023-12-25.png",
                     "video_url": "",
                     "alt_text": ""
