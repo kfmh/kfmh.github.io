@@ -252,6 +252,18 @@
                     "image": "./logbook/images/2023-12-25.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-29":{
+                    "weekday": "Friday",
+                    "project":"General Planing",
+                    "objective":"The prospect of only two days remaining in the year is both intimidating and exhilarating. The previous week has been characterized by sluggish and somewhat resentful work efforts. With financial resources dwindling rapidly, the mounting stress is paradoxically energizing, transforming the fear of failure into a potent motivator. Today, I'm adopting a broader viewpoint and focusing on foundational elements to set the stage for a successful year. This includes completing the blackboard setup in my office and developing prototype blueprint for a flagship product. - [08:30]",
+                    "agenda":["Blackboard", "Product blueprint"],
+                    "methods":"The blackboard consists of a glass sheet with a dual-sided design: one side is painted, suitable for chalk use, and the other side is blank, compatible with whiteboard markers. The frame dimensions are 45mm x 95mm and 45mm x 45mm. Tomorrow's task is to attach wheels to enhance mobility. The blueprint for the flagship product's prototype is conceptualized, pending the cutting of pieces for the mold. - [Saturday 01:00]",
+                    "insights":"I find great enjoyment in woodworking, there's a unique sense of accomplishment in creating something tangible from my own drawings. - [Saturday 01:00]", 
+                    "conclusions":"I'm still sluggish, but any improvement is still a step forward. - [Saturday 01:00]",
+                    "image": "./logbook/images/2023-12-29.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
         }
     }
