@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Chart Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<style>
+    .screen {
+        display: flex;
+        flex-direction: row;
+        width: 100%; /* Ensure the container takes full width */
+    }
+
+    .choices {
+        flex: 1; /* 20% of the space */
+        flex-basis: 20%; /* Set a base width */
+        min-width: 150px; /* Example minimum width */
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #myBarChart {
+        flex: 4; /* 80% of the space */
+        flex-basis: 80%; /* Set a base width */
+    }
+</style>
+
+
+
+<body>
+    <div class="screen">
+        <div class="choices">
+            <button id="dataSet1">What quality is more desirable in a college?</button>
+            <button id="dataSet2">If going to work and going to school paid you the same amount, which would you choose?</button>
+        </div>
+        <canvas id="myBarChart"></canvas>
+    </div>
+
+    <script>
+        var ctx = document.getElementById('myBarChart').getContext('2d');
+        var myBarChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Intelligence', 'Empathy'],
+                datasets: [{
+                    label: 'What quality is more desirable in a college?',
+                    data: [1, 2],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            min: 0,
+                            max: 100,
+                            stepSize: 1
+                        }
+                    }
+                }
+            }
+        });
+
+        // Function to update chart data, labels, and dataset label
+        function updateChartData(newData, newLabels, newDatasetLabel) {
+            myBarChart.data.datasets[0].data = newData;
+            myBarChart.data.labels = newLabels;
+            myBarChart.data.datasets[0].label = newDatasetLabel;
+            myBarChart.update();
+        }
+
+        // Event listeners for buttons
+        document.getElementById('dataSet1').addEventListener('click', function() {
+            updateChartData(
+                [1, 2],
+                ['Intelligence', 'Empathy'],
+                'Question: What quality is more desirable in a college?'
+            );
+        });
+
+        document.getElementById('dataSet2').addEventListener('click', function() {
+            updateChartData(
+                [1, 4],
+                ['Work', 'School'],
+                'Question: If going to work and going to school paid you the same amount, which would you choose?'
+            );
+        });
+    </script>
+</body>
+</html>
