@@ -264,6 +264,18 @@
                     "image": "./logbook/images/2023-12-29.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "2023-12-30":{
+                    "weekday": "Friday",
+                    "project":"General Planing",
+                    "objective":"Last night, my LinkedIn post was featured in the 'Python Developers' community, reaching over 2 million followers – a gratifying achievement. However, I stayed up too late. Today, the eve of New Year's Eve, I'm focused on completing yesterday's tasks: attaching wheels to the blackboard and cutting out the parts for the product mold - [09:00] Although not apart of todays plan, I managed to do some work on “Doors”, more about in the next year. - [00:00]",
+                    "agenda":["Blackboard", "Product blueprint"],
+                    "methods":"The construction involved cutting the pieces, followed by gluing and screwing them together. Some pieces were intentionally left unglued for easy disassembly and material reuse, if needed. The surface is rugged on one side, suitable for chalk, and glass on the other side suitable for markers - [00:00]",
+                    "insights":"Despite having quality tools, the precision of the outcome is greatly influenced by the sequence of operations in a task. I often rely on eyeballing parts, which is a valuable skill in itself. I have a strong intuition for what will work and can effortlessly visualize or modify schematics in my mind - [00:00]", 
+                    "conclusions":"Woodworking, as a hobby, enhances my productivity. The experience of using tools and crafting something with my own hands brings an unmatched sense of fulfillment - [00:00]",
+                    "image": "./logbook/images/2023-12-30.png",
+                    "video_url": "https://youtube.com/embed/dSGIGdd4DP8?si=Q_sL9XiQJEl5aQli",
+                    "alt_text": ""
                 }
         }
     }
