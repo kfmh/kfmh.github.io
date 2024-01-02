@@ -292,6 +292,18 @@
                     "image": "./logbook/images/2024-01-01.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "02":{
+                    "weekday": "Monday",
+                    "project":"Logbook",
+                    "objective":"Today, I'm feeling energized and plan to enhance various frameworks. I'll focus on refining a LaTeX template designed for annotating educational programming content on LinkedIn, aiming to optimize its formatting. Additionally, I intend to modify a post about Python package version conventions, which previously garnered significant engagement - [13:00]. I found some spare time, so I'll delve into an alpha build of 'Doors' - [21:00]",
+                    "methods":"I've designed a LaTeX document tailored for creating concise 'How To' tutorial slides. This approach appears effective, as evidenced by both my attempts to get featured in the Python community on LinkedIn being successful using this format - [21:00]. Doors alpha package is up, doors 0.1.0-alpha. The alpha version serves as an initial prototype designed for feature testing - [00:00].",
+                    "agenda":["Persion conventions pdf", "Doors alpha package"],
+                    "insights":"Navigating social media is a challenge I'm actively working to master. I strive for detail and precision, yet a typo slipped through on the first page. It's frustrating, but it serves as a valuable reminder to accept mistakes, move forward and do better next time - [21:00].",
+                    "conclusions":"It feels good to cross off a task, but I need to go to bed earlier - [00:00].",
+                    "image": "./logbook/images/2024-01-02.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
