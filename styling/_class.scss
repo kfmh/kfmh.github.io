@@ -96,3 +96,11 @@
     margin: 0;
     padding: 0;
 }
+
+.logbook_nav a.selected-year, 
+.logbook_nav a.selected-month, 
+.logbook_nav a.selected-day {
+    font-weight: 700;
+    border-bottom: solid 2px red;
+    color: red;
+}
