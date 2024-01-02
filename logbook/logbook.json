@@ -1,7 +1,7 @@
 {
     "2023": {
-        "december": {
-            "2023-12-03":{
+        "Dec": {
+            "03":{
                     "weekday": "Sunday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Set out to implement speech-to-text (STT) functionality to move chess pieces and text-to-speech (TTS) to hear the move from the chess engine.",
@@ -13,7 +13,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-04":{
+            "04":{
                     "weekday": "Monday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Cleaning up functions with error handling, adding flags for passing arguments like bot difficulty level and chess board graphics. ",
@@ -25,7 +25,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-05":{
+            "05":{
                     "weekday": "Tuesday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Today's objective was to finish the bare minimum to start user testing. This included some basic error handling, cleaning up the game render loop, adding argument parsing for bot difficulty and improving the UCI (Universal Chess Interface) formatting from the speech to text response. I'm the only user at this stage but at the end of the week I should have a functioning python package ready for testing.",
@@ -37,7 +37,7 @@
                     "video_url": "https://www.youtube.com/embed/1wvanX-nkVc?si=2qsHtPq2mhasSZAs",
                     "alt_text": ""
                 },
-            "2023-12-06":{
+            "06":{
                     "weekday": "Wednesday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"The goal was to complete a full game without the program breaking and to improve the runtime functions, but most of the day was spent on fixing UX on this site, scheduling LinkedIn content and planning other projects.",
@@ -49,7 +49,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-07":{
+            "07":{
                     "weekday": "Thursday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Yesterday It felt like I was moving sideways and today I was soaring. Took a look at both speech-to-text (STT) and text-to-speech (TTS) to see where I could optimize. Both scripts were initially created for another project using a similar interaction design so it's kind of like I picked a wrench from the toolbox and used it as a wrench as a hammer. ",
@@ -61,7 +61,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-08":{
+            "08":{
                     "weekday": "Friday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Today I took a somewhat educational and creative break. Been reading about AGI and philosophizing about where I could take UW-chess. I still managed to record a new demo with the latest updates, and found some unnecessary  processes I could optimize. The game is slightly improved and I feel confident I'll finish the POC by monday.",
@@ -73,7 +73,7 @@
                     "video_url": "https://www.youtube.com/embed/9C3ttUqd-b4?si=dgzWE9UG5MhxepBp",
                     "alt_text": ""
                 },
-            "2023-12-09":{
+            "09":{
                     "weekday": "Saturday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Testing blindfold interaction design to find where I should focus improvements before finalizing the proof of concept for monday. Besides playing a lot of games another way of practicing chess is to look at specific scenarios, but the first step of blindfold chess is to practice awareness so implementing a function for randomly generating a number of pieces to start with. For example starting with only 8 pieces in total on the board.  This would be an intermediary level to practice board awareness, and gradually increase how many pieces to keep track of.",
@@ -85,7 +85,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-10":{
+            "10":{
                     "weekday": "Sunday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Today I set out to Finish a proof of concept (POC) that can be installed as a python package. The feature I'm most excited about is the random board setup generator. Since it is a training tool for practicing blindfold chess there should be a way of incrementally increasing the difficulty, so there will be 2 parameters for difficulty as part of the POC version. The 1st parameter is the amount of pieces on the board so users can start tracking 4 and gradually increase to - 32 pieces. The 2nd parameter is rendering chess-board coordinate visibility. Board will have 3 levels with easy = (x,y) visible for each tile, moderate = classic coordinates viability showing left column, and bottom rank. And a hard = blank board. - [13:30]",
@@ -97,7 +97,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-11":{
+            "11":{
                     "weekday": "Monday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Today's main focus is to finalize the proof of concept and python package. The application is far from decent but it works enough to get a feel for its potential. Going over the code today I'll implement an “Occam's razor” approach, simplify and remove rather than write more lines - [09:00].",
@@ -109,7 +109,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-12":{
+            "12":{
                     "weekday": "Tuesday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Today is an educational day, going to dive into asynchronous programming, threading and multiprocessing. One of these approaches will improve the interaction with the speech-to-text STT event. Since one event is recording and the other is analyzing the recording, this should be possible to continuously record and analyze in tandem, so thus to not have a break not noticeable to the user, leading to disorientation - [09:00].",
@@ -121,7 +121,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-13":{
+            "13":{
                     "weekday": "Wednesday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Create a working multiprocessing script for speech to text STT, so that no speech is missed. If I create a working function for this I can later switch out the model doing the analysis to a stronger to improve reliability and over all interaction design - [08:30].",
@@ -133,7 +133,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-14":{
+            "14":{
                     "weekday": "Thursday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"There's a lot I want to get done today, the uw_realtime_stt package is the main focus. This will be a keystone for other projects I’m planning. What’s left for uw_realtime_stt 1.0.0-alpha is a rolling window analysis loop to mitigate cuts in the recording where audio is missed - [08:00]",
@@ -145,7 +145,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-15":{
+            "15":{
                     "weekday": "Friday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Heading out to do some errands for the day but I'll squeeze in a session for the evening. It’s only one thing on the agenda, it's going to feel better adding tasks later, rather than not completing the task. Probably going to play some Blitz on chess.com to. It’s Friday after all - [10:30]",
@@ -157,7 +157,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-16":{
+            "16":{
                     "weekday": "Saturday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Same thing as yesterday. The problem I'm having with realtime speech-to-text STT is that at some point the recording has to be cut and passed to the analyze function to predict the text. If a word is cut off it will alter the parts or the entire sentence to grammatically fit the sound of the word that is cut off in the end or beginning. To mitigate this the buffer should only be flushed when there is a clear pause in a sentence. Until it is flushed the whole buffer data will be analyzed on each iteration that sound is appended. This part is relatively straightforward using python multiprocessing, but it’s the audio streaming to the buffer I'm not sure how to implement correctly, it must be continuous without any sort of break. I've tried running two recording functions in tandem, but the library I'm using for audio recording isn’t meant to function like this. I might have to create my own for this. First I'll do some tests of asynchronous recording event loops and see if that is enough  - [14:00].",
@@ -169,7 +169,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-17":{
+            "17":{
                     "weekday": "Sunday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Today is the day to “Get everything to sing!“, not that confident I’ll finish it today, but as soon as the speech-to-text works I can then implement it into uw_chess. The speech to text package will also be a substantial feature on another project in the pipeline - [11:00]",
@@ -181,7 +181,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-18":{
+            "18":{
                     "weekday": "Monday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"New week, an opportunity to start fresh. I have projected down the pipeline that relies heavily on this speech to text component for uw_chess. I will make it work today - [07:00].",
@@ -193,7 +193,7 @@
                     "video_url": "https://www.youtube.com/embed/QTmYrX1jGj0?si=6WBilxkGkbsHeVbr",
                     "alt_text": ""
                 },
-            "2023-12-19":{
+            "19":{
                     "weekday": "Tuesday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"I’d like to finish what I believe to be the most critical components (listed below) that need to be addressed before I can move on to implementing uw_realtime_stt into uw_chess. The special tokens warning is driving me crazy, I need to figure out how to list the tokens that are not in the  tokenizer. Which seems to be like a needle in a haystack, there has to be a simple solution to this - [09:00].",
@@ -205,7 +205,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-20":{
+            "20":{
                     "weekday": "Wednesday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Uw_realtime_stt is far from great, I might spin up a hugging face inference endpoint and test the speed improvement from stronger GPUs. 'perfection is the enemy of progress' and I need to move on. Once I've tried the uw_chess app with the modified STT I can rank what process needs to be received first - [08:30]",
@@ -217,7 +217,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-21":{
+            "21":{
                     "weekday": "Thursday",
                     "project":"uw-chess Blindfold Chess Trainer",
                     "objective":"Heading out for errands today, leaving limited time for coding. However, if the schedule allows, I’ll test integrating uw_realtime_stt into uw_chess. This has the potential to be a significant milestone. Although achieving this today seems improbable, the performance of whisper-distill is promisingly above average. Nonetheless, it requires further refinement to optimally and reliably register UCI moves - [08:30]",
@@ -229,7 +229,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-22":{
+            "22":{
                     "weekday": "Friday",
                     "project":"Logbook",
                     "objective":"On Saturday I'll start promoting my github page on Linkedin. In preparation for that i’ll update the logbook with a pdf section for LaTex articles I write. - [11:00].",
@@ -241,8 +241,8 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-25":{
-                    "weekday": "Friday",
+            "25":{
+                    "weekday": "Monday",
                     "project":"Logbook",
                     "objective":"Christmas is over and I am eager to start 2024 early. Going to initiate some marketing experiments in anticipation for coming product launches and start building a physical blackboard for scheduling and planning - [11:30]",
                     "agenda":["Blackboard", "Multiple answer countdown"],
@@ -253,7 +253,7 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-29":{
+            "29":{
                     "weekday": "Friday",
                     "project":"General Planing",
                     "objective":"The prospect of only two days remaining in the year is both intimidating and exhilarating. The previous week has been characterized by sluggish and somewhat resentful work efforts. With financial resources dwindling rapidly, the mounting stress is paradoxically energizing, transforming the fear of failure into a potent motivator. Today, I'm adopting a broader viewpoint and focusing on foundational elements to set the stage for a successful year. This includes completing the blackboard setup in my office and developing prototype blueprint for a flagship product. - [08:30]",
@@ -265,8 +265,8 @@
                     "video_url": "",
                     "alt_text": ""
                 },
-            "2023-12-30":{
-                    "weekday": "Friday",
+            "30":{
+                    "weekday": "Saturday",
                     "project":"General Planing",
                     "objective":"Last night, my LinkedIn post was featured in the 'Python Developers' community, reaching over 2 million followers – a gratifying achievement. However, I stayed up too late. Today, the eve of New Year's Eve, I'm focused on completing yesterday's tasks: attaching wheels to the blackboard and cutting out the parts for the product mold - [09:00] Although not apart of todays plan, I managed to do some work on “Doors”, more about in the next year. - [00:00]",
                     "agenda":["Blackboard", "Product blueprint"],
@@ -278,5 +278,21 @@
                     "alt_text": ""
                 }
         }
+    },
+    "2024": {
+        "Jan": {
+            "01":{
+                    "weekday": "Monday",
+                    "project":"Logbook",
+                    "objective":"Kicking off the new year, I'm taking it slow due to post-celebration sluggishness. Today, my focus is on minor yet significant tasks: revising the logbook entry sorting for the new year and enhancing the 'Doors' project readme with a brief overview by - [17:00]",
+                    "methods":"Was slinging code back and forth with chat gpt in order to update the java-script for logbook entries. I hate web-design, and see it as a necessary but not something I enjoy. The “Doors” readme got updated with the abstract of a light paper im working on  - [00:00]",
+                    "agenda":["Logbook entries update", "Doors readme"],
+                    "insights":"Using AI to write low level code is such a time saver. Especially today when I was feeling the aftermath of new years - [00:00]",
+                    "conclusions":"Even though the year started slowly, I managed to take some pieces of the board today. - [00:00]",
+                    "image": "./logbook/images/2024-01-01.png",
+                    "video_url": "",
+                    "alt_text": ""
+                }
+            }
     }
 }

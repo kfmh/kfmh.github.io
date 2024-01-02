@@ -21,7 +21,7 @@ function f2(date_str) {
     fetch('./logbook/logbook.json')
         .then(response => response.json())
         .then(data => {
-            let data_json = data["2023"]["december"][date_str];
+            let data_json = data["2023"]["12"][date_str];
 
             document.getElementById('date').textContent = date_str;
             document.getElementById('project').textContent = data_json.project;
@@ -69,8 +69,8 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('./logbook/logbook.json')
         .then(response => response.json())
         .then(data => {
-            let episodesDiv = document.getElementById('logbook_nav');
-            let data_json = data["2023"]["december"];
+            let episodesDiv = document.getElementById('days');
+            let data_json = data["2023"]["12"];
             let dates = Object.keys(data_json);
 
             let latestDate = dates.sort().reverse()[0];
@@ -119,7 +119,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// document.querySelector('.more-button').addEventListener('click', function() {
-//     // Add your functionality here
-//     alert('More button clicked!');
-// });
