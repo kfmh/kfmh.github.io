@@ -1,29 +1,29 @@
 let currentSelectedLink = null;
 
-// Function to populate the agenda section
-function populateAgenda(agendaItems) {
-    let agendaSection = document.getElementById('agenda');
-    let agenda_div = document.getElementById('agenda_div');
-    // Clear existing content
-    agendaSection.innerHTML = '';
-    let ul = document.createElement('ul');
-    agendaItems.forEach(item => {
-        let li = document.createElement('li');
-        li.textContent = item;
-        ul.appendChild(li);
-    });
-    agendaSection.appendChild(ul);
-    
-}
+    // Function to populate the agenda section
+    function populateAgenda(agendaItems) {
+        let agendaSection = document.getElementById('agenda');
+        let agenda_div = document.getElementById('agenda_div');
+        // Clear existing content
+        agendaSection.innerHTML = '';
+        let ul = document.createElement('ul');
+        agendaItems.forEach(item => {
+            let li = document.createElement('li');
+            li.textContent = item;
+            ul.appendChild(li);
+        });
+        agendaSection.appendChild(ul);
+        
+    }
 
-// Function to load and display logbook data for a given date
-function f2(date_str) {
+    function f2(year, month, date) {
     fetch('./logbook/logbook.json')
         .then(response => response.json())
         .then(data => {
-            let data_json = data["2023"]["12"][date_str];
+            let data_json = data[year][month][date];
 
-            document.getElementById('date').textContent = date_str;
+            // Update the logbook content
+            document.getElementById('date').textContent = date;
             document.getElementById('project').textContent = data_json.project;
             document.getElementById('weekday').textContent = data_json.weekday;
             document.getElementById('objective').textContent = data_json.objective;
@@ -37,10 +37,10 @@ function f2(date_str) {
             let ytVideo = document.getElementById('yt_video');
             let media = document.getElementById('media');
 
+            // Update media visibility
             if (data_json.video_url === '') {
                 ytVideo.classList.add('hide');
                 ytVideo.src = '';
-
                 if (data_json.image === '') {
                     media.classList.add('hide');
                 }
@@ -52,70 +52,128 @@ function f2(date_str) {
                 media.classList.remove('hide');
             }
 
-            // Populate the agenda section
+            // Update the agenda section
             if (data_json.agenda.length > 0) {
                 agenda_div.classList.remove('hide');
                 populateAgenda(data_json.agenda);
             } else {
                 agenda_div.classList.add('hide');
             }
+
+            // Highlight the current selected day link
+            if (currentSelectedLink) {
+                currentSelectedLink.classList.remove('selected');
+            }
+            let dayLinks = document.getElementById('days').getElementsByTagName('a');
+            for (let link of dayLinks) {
+                if (link.textContent === date) {
+                    link.classList.add('selected');
+                    currentSelectedLink = link;
+                    break;
+                        }
+            }
         })
         .catch(error => console.error('Error fetching data:', error));
+    }
+
+
+    function highlightLink(link, type) {
+    let currentSelected = document.getElementsByClassName('selected-' + type);
+    if (currentSelected.length > 0) {
+        currentSelected[0].classList.remove('selected-' + type);
+    }
+    link.classList.add('selected-' + type);
 }
 
-// Event listener for DOM content loaded
+function generateMonthLinks(year, data, monthsDiv, daysDiv, latestMonth) {
+    monthsDiv.innerHTML = ''; // Clear existing months
+    Object.keys(data[year]).sort().reverse().forEach(month => {
+        let monthLink = document.createElement('a');
+        monthLink.href = '#';
+        monthLink.textContent = month;
+        monthLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            generateDayLinks(year, month, data, daysDiv);
+            highlightLink(monthLink, 'month');
+        });
+        monthsDiv.appendChild(monthLink);
+        if (month === latestMonth) {
+            highlightLink(monthLink, 'month');
+        }
+    });
+}
+
+function generateDayLinks(year, month, data, daysDiv, latestDate) {
+    daysDiv.innerHTML = ''; // Clear existing days
+    Object.keys(data[year][month]).sort().reverse().forEach(date => {
+        let dateLink = document.createElement('a');
+        dateLink.href = '#';
+        dateLink.textContent = date;
+        dateLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            f2(year, month, date);
+            highlightLink(dateLink, 'day');
+        });
+        daysDiv.appendChild(dateLink);
+        if (date === latestDate) {
+            highlightLink(dateLink, 'day');
+        }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Fetching logbook data
     fetch('./logbook/logbook.json')
         .then(response => response.json())
         .then(data => {
-            let episodesDiv = document.getElementById('days');
-            let data_json = data["2023"]["12"];
-            let dates = Object.keys(data_json);
+            let yearsDiv = document.getElementById('years');
+            let monthsDiv = document.getElementById('months');
+            let daysDiv = document.getElementById('days');
 
-            let latestDate = dates.sort().reverse()[0];
-            f2(latestDate);
+            let latestYear = Object.keys(data).sort().reverse()[0];
+            let latestMonth = Object.keys(data[latestYear]).sort().reverse()[0];
+            let latestDate = Object.keys(data[latestYear][latestMonth]).sort().reverse()[0];
+            f2(latestYear, latestMonth, latestDate);
 
-            dates.forEach(date => {
-                let episodeLink = document.createElement('a');
-                episodeLink.href = '#';
-                episodeLink.textContent = date;
-                episodeLink.style.display = "block";
-
-                episodeLink.addEventListener('click', function(event) {
+            Object.keys(data).sort().reverse().forEach(year => {
+                let yearLink = document.createElement('a');
+                yearLink.href = '#';
+                yearLink.textContent = year;
+                yearLink.addEventListener('click', function(event) {
                     event.preventDefault();
-                    if (currentSelectedLink) {
-                        currentSelectedLink.classList.remove('selected');
-                    }
-                    currentSelectedLink = episodeLink;
-                    episodeLink.classList.add('selected');
-                    f2(date);
+                    monthsDiv.innerHTML = ''; // Clear months
+                    daysDiv.innerHTML = ''; // Clear days
+                    highlightLink(yearLink, 'year');
+                    generateMonthLinks(year, data, monthsDiv, daysDiv);
                 });
-
-                episodesDiv.appendChild(episodeLink);
-                if (date === latestDate) {
-                    currentSelectedLink = episodeLink;
-                    episodeLink.classList.add('selected');
+                yearsDiv.appendChild(yearLink);
+                if(year === latestYear){
+                    highlightLink(yearLink, 'year');
                 }
             });
+
+            generateMonthLinks(latestYear, data, monthsDiv, daysDiv, latestMonth);
+            generateDayLinks(latestYear, latestMonth, data, daysDiv, latestDate);
         })
         .catch(error => console.error('Error fetching data:', error));
 
-    // Burger menu functionality
-    const burger = document.getElementById('burgerMenu');
-    const nav = document.getElementById('logbook_nav');
 
-    burger.addEventListener('click', function() {
-        nav.classList.toggle('is-active');
-    });
 
-    // Close nav when clicking outside
-    document.addEventListener('click', function(event) {
-        if (!nav.contains(event.target) && !burger.contains(event.target)) {
-            if (nav.classList.contains('is-active')) {
-                nav.classList.remove('is-active');
+
+
+        // Burger menu functionality
+        const burger = document.getElementById('burgerMenu');
+        const nav = document.getElementById('logbook_nav');
+
+        burger.addEventListener('click', function() {
+            nav.classList.toggle('is-active');
+        });
+
+        // Close nav when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!nav.contains(event.target) && !burger.contains(event.target)) {
+                if (nav.classList.contains('is-active')) {
+                    nav.classList.remove('is-active');
+                }
             }
-        }
+        });
     });
-});
-
