@@ -318,7 +318,7 @@
                     "alt_text": ""
                 },
             "04":{
-                    "weekday": "Wednesday",
+                    "weekday": "Thursday",
                     "project":"General Planning",
                     "objective":"Today I’m picking up a flagship project previously referred to as Aetherus but will get a new name after today. It is a voice command chatbot for educational assistance. I have a working prototype powered by Meta's Llama2 model, but I haven't looked at the project for about two months now so will focus on sprint planning for an upcoming marketing campaign where this project will be in focus - [08:00].",
                     "methods":"Testing a planning framework I learned from the book I’m reading ‘12 week year’, it’s similar to scrum. Went over the repository to see where it left it, it was a creative mess, but a lot of good functions to optimize. - [23:30].",
