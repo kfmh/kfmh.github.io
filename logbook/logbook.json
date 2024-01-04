@@ -316,6 +316,18 @@
                     "image": "",
                     "video_url": "https://www.youtube.com/embed/-oRG-jt0Jds?si=FfhQd5Y6KX-oY4TS",
                     "alt_text": ""
+                },
+            "04":{
+                    "weekday": "Wednesday",
+                    "project":"General Planning",
+                    "objective":"Today I’m picking up a flagship project previously referred to as Aetherus but will get a new name after today. It is a voice command chatbot for educational assistance. I have a working prototype powered by Meta's Llama2 model, but I haven't looked at the project for about two months now so will focus on sprint planning for an upcoming marketing campaign where this project will be in focus - [08:00].",
+                    "methods":"Testing a planning framework I learned from the book I’m reading ‘12 week year’, it’s similar to scrum. Went over the repository to see where it left it, it was a creative mess, but a lot of good functions to optimize. - [23:30].",
+                    "agenda":["Sprint planning", "Repository review"],
+                    "insights":"I tried posting the slides above on an AI community on Linked in without luck. It’s difficult to say if the content is bad or just didn’t make the cut . Probably the latter since there are over 2M members in the community and they only post 10-15 post per day. - [23:30].",
+                    "conclusions":"I’m falling into a motivational downtrend, but I have a good framework to fall back on. Trust the process - [23:30]",
+                    "image": "./logbook/images/2024-01-04.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
