@@ -294,7 +294,7 @@
                     "alt_text": ""
                 },
             "02":{
-                    "weekday": "Monday",
+                    "weekday": "Tuesday",
                     "project":"Logbook",
                     "objective":"Today, I'm feeling energized and plan to enhance various frameworks. I'll focus on refining a LaTeX template designed for annotating educational programming content on LinkedIn, aiming to optimize its formatting. Additionally, I intend to modify a post about Python package version conventions, which previously garnered significant engagement - [13:00]. I found some spare time, so I'll delve into an alpha build of 'Doors' - [21:00]",
                     "methods":"I've designed a LaTeX document tailored for creating concise 'How To' tutorial slides. This approach appears effective, as evidenced by both my attempts to get featured in the Python community on LinkedIn being successful using this format - [21:00]. Doors alpha package is up, doors 0.1.0-alpha. The alpha version serves as an initial prototype designed for feature testing - [00:00].",
@@ -303,6 +303,18 @@
                     "conclusions":"It feels good to cross off a task, but I need to go to bed earlier - [00:00].",
                     "image": "./logbook/images/2024-01-02.png",
                     "video_url": "",
+                    "alt_text": ""
+                },
+            "03":{
+                    "weekday": "Wednesday",
+                    "project":"Doors",
+                    "objective":"This morning is off to a great start. I've begun listening to 'The 12 Week Year,' a book focused on boosting urgency to enhance efficiency. I'm two chapters in, and the intensity is palpable. My goals for today include creating a progress video for the 'Doors' package and crafting an AI community post. While they may seem unrelated, both tasks aim to gain experience in short-form ed-tech frameworks and formats  - [08:30].",
+                    "methods":"Updated the Doors Readme and successfully tested package installation and course addition. This build lays the foundation for extended testing of features. Additionally, designed a new template for LinkedIn short-form content slides - [01:00].",
+                    "agenda":["‘Doors’ progress video", "AI community post"],
+                    "insights":"Every new content template and progress video I create bolsters my confidence. It's not the current quality, because it is admittedly flawed in many areas. But the consistent improvements I observe are nourishing. Persisting in this manner will inevitably lead to positive outcomes - [01:00].",
+                    "conclusions":"Keeping this logbook really makes a difference, It forces me to reflect and acknowledge my shortcoming but also celebrate my achievements - [01:00]",
+                    "image": "",
+                    "video_url": "https://www.youtube.com/embed/-oRG-jt0Jds?si=FfhQd5Y6KX-oY4TS",
                     "alt_text": ""
                 }
             }
