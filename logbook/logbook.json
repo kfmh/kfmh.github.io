@@ -328,6 +328,18 @@
                     "image": "./logbook/images/2024-01-04.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "05":{
+                    "weekday": "Firday",
+                    "project":"General Planning",
+                    "objective":"The sprint I planned for yesterday has a target set this Sunday for what I call a project demo. So there are a lot of ‘pieces that need to be taken off the board’ so to speak. Move forward with the day I will clean up the project structure to accommodate the Sunday ‘alpha’ build. Most of the code is already written, but needs to be structured and optimized for intended usage - [08:00].",
+                    "methods":"Not much to report, tested the script for ’BiBi’, and it works fine but the interaction is really bad. It requires an audio activation command. Which I plan to get rid of to make the interaction more natural - [01:00].",
+                    "agenda":["Test run ‘BiBi’", "Python package structure"],
+                    "insights":"I enjoy the process, but I'm at a point where progress is slow and I need to learn some new developer skills to move forward  - [01:00].",
+                    "conclusions":"Trust the process and keep working  - [01:00].",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
