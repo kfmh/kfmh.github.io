@@ -340,6 +340,18 @@
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "06":{
+                    "weekday": "Firday",
+                    "project":"General Planning",
+                    "objective":"I will make a demo/progress update of BiBi tomorrow so today requires that I finalize the bare minimum of the python package. At this moment BiBi isn’t anything impressive, and there are a lot of projects that do audio chat-bots better. But I want to build BiBi from the ground up, to learn and to shape her into the vision I have, an AI grandmother - [11:00].",
+                    "methods":"Created a python package using pyproject.toml for build system requirements. Have some issues running the packaged version because there are api-keys required to run the models. Thinking of setting up arg-flags for parsing keys - [01:00].",
+                    "agenda":["BiBi Python package"],
+                    "insights":"Started reading a new book today, ‘Why we sleep’. I'm 2 chapters in and I’ve decided to set a non-negotiable time for sleep. Who knew sleep was such a great thing, jokes aside. Sleep is great for learning and processing new information, and I have a lot I want to learn - [01:00].",
+                    "conclusions":"It’s been a good day, but besides sleep, I need to look at my work life balance  - [01:00].",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
