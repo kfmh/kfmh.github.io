@@ -342,13 +342,25 @@
                     "alt_text": ""
                 },
             "06":{
-                    "weekday": "Firday",
-                    "project":"General Planning",
+                    "weekday": "Saturday",
+                    "project":"bibi",
                     "objective":"I will make a demo/progress update of BiBi tomorrow so today requires that I finalize the bare minimum of the python package. At this moment BiBi isn’t anything impressive, and there are a lot of projects that do audio chat-bots better. But I want to build BiBi from the ground up, to learn and to shape her into the vision I have, an AI grandmother - [11:00].",
                     "methods":"Created a python package using pyproject.toml for build system requirements. Have some issues running the packaged version because there are api-keys required to run the models. Thinking of setting up arg-flags for parsing keys - [01:00].",
                     "agenda":["BiBi Python package"],
                     "insights":"Started reading a new book today, ‘Why we sleep’. I'm 2 chapters in and I’ve decided to set a non-negotiable time for sleep. Who knew sleep was such a great thing, jokes aside. Sleep is great for learning and processing new information, and I have a lot I want to learn - [01:00].",
                     "conclusions":"It’s been a good day, but besides sleep, I need to look at my work life balance  - [01:00].",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
+                },
+            "07":{
+                    "weekday": "Sunday",
+                    "project":"python_fundamentals",
+                    "objective":"It’s the last day of the first week of the year. This week has been good, it started slow but I managed to pick up the pace towards the end. Today I'll take a mellow sunday and rest, listen to my audio book ‘Why we sleep’ and learn how to write unittest in python  - [11:00].",
+                    "methods":"Started a new repo for studying, the way to learn is to teach, and even though I doubt anyone will use this repo. But I learn a lot faster when refining a new skill into a compress tutorial - [23:30].",
+                    "agenda":["Learn unittest"],
+                    "insights":"I usually plan important tasks for the day in the morning. This coming week I'll plan the next day in advance before the current day ends - [11:00] Got some nice new ideas from the book about learning. Apparently as a human we have different sleep cycles and perform the best in the coming hours after we wake up. And in contrast worse at the end of the day. I notice this when playing chess. This would be a really new feature to have in “Doors” a test that is adaptive and can tell what level of cognitive performance you are in - [23:30].",
+                    "conclusions":"There is a lot more to learning then just reading and applying, nature vs nurture is something I’m excited to look into more. Have a book written by Jim Kwik I read 2 years back, I will read that again next to get some more inspiration for Doors - [23:30].",
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
