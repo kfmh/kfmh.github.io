@@ -364,6 +364,18 @@
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "08":{
+                    "weekday": "Monday",
+                    "project":"doors",
+                    "objective":"First day of the second week of the year feels like it’s going to be a good week. Today I will Implement at unittest and github action for auto testing json format for multiple-choice-question courses. The ide is that anyone can add courses as pull requests, and if the course passes the check it will automatically be merged - [09:00]",
+                    "methods":"Wrote a comprehensive script that checks all levels of the json document, and returns true if format is correct. This is a fist implementation of unitesting and will be improved. This is also the first time I use Github actions. - [23:30].",
+                    "agenda":["Write unittest script", "Create github action"],
+                    "insights":"Automating pull request review is a really powerful tool. I'm envisioning a community driven platform where users generet the education content, design features and tests will be a crucial skill me and the future team will need to have. I’ve been thinking about a feature for ‘bibi’ as well. I want to place documents in a directory, on topics I am currently studying, that she learns and we later can have conversations about. A tool like chat-gpt already solves this very well, but I'm interested in the aspect of continuously training an AI. This feature is inspired by the saying that ‘you learn best by teaching’.  - [23:30].",
+                    "conclusions":"Learning unittesting and github actions feel like unlocking a new power. It’s been a good day.  - [23:30].",
+                    "image": "./logbook/images/2024-01-08.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
