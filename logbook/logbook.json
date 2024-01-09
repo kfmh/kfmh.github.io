@@ -376,6 +376,18 @@
                     "image": "./logbook/images/2024-01-08.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "09":{
+                    "weekday": "Tuesday",
+                    "project":"doors",
+                    "objective":"This week will go to micro improvements and studying. The past 2 days I have learned about and implemented automated unit testing of json format for mcq_courses. The idea with the whole Doors ecosystem is that anyone can add courses, so it is important to have automated tests for contributions. But as it stands now, Doors is barely at its infancy, and the core of the project has yet to be actualised. Right now I think Doors could be a really cool roguelike game, although I'm still learning what those types of games are - [10.30].",
+                    "methods":"Roguelike games derive from a concept of procedural level generation, and Permadeath, short for permanent death.  It all started with a game called Rouge developed in the 1980’s, which is an RPG dungeon crawler game. When a player dies they start from the beginning, a feature i'm not sure suites an educational journey but there is a sub genera called Roguelite, with alloys for ability to pass one to the next life, this is metaphorically suitable for education, if you fail a test some knowledge stays with you. Procedural means that the game scene is somewhat randomly generated from a fixed set of variables or game assets, at each new game. This requires skill mastery rather than recall, also a trait suitable for education - [23.30].",
+                    "agenda":["Research roguelike games."],
+                    "insights":"The aspect of procedural courses is very intriguing and since I'm still a solo developer, the roguelike genre is a good place to start since it is an indie game genre  - [23.30].",
+                    "conclusions":"‘Doors’ is education hidden in gaming, and there are many routes one can take to mastery. Next up will be to come up with a very basic game idea. I think it will have to be something interesting I can do with ASCII graphics, like the original Rogue game - [23.30].",
+                    "image": "./logbook/images/2024-01-09.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
