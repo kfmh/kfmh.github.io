@@ -388,6 +388,18 @@
                     "image": "./logbook/images/2024-01-09.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "10":{
+                    "weekday": "Wednesday",
+                    "project":"doors",
+                    "objective":"This is a study week, or you may also call it research and development. Today ill start working on what i call a ‘door’ in the Doors ecosystem. It is figuratively a door that needs to be unlocked, and the educational exercise is to figure out how to unlock the door - [09:00].",
+                    "methods":"Been looking at roguelike games to find inspiration, but no real coding today. Test design a ASCII Door visual. The basic gist is that the ‘Doors’ ecosystems is a sort of open world, with mini games that are the courses. Each course is a json document with one door or several doors, and the learning experience is to find a way to open the doors. This will require some imagination from the course creators to set parameters that if solved will open the. The door on the image is made of wood, steel and glass and there is a 3 digit padlock on the door. So a player could scavenge resources to create thermite and burn the door, learning about chemistry, or brute force the combination to the padlock or learn basic cryptography for deciphering the code - [23:30].",
+                    "agenda":["Create a roguelike idea", "Design a ‘door’"],
+                    "insights":"Designing the game mechanics is daunting, I don't want to fall into the trap of pixel pushing so ASCII graphics is the way to go. If I can make something that is interesting with the bare minimum of visulas, then I have a backend that is worth building graphics on - [23:30].",
+                    "conclusions":"I’ve been playing a lot of chess and listening to my audiobook the past few days. It’s been nice to take a break, think and gather inspiration - [23:30].",
+                    "image": "./logbook/images/2024-01-10.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
