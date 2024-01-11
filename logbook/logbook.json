@@ -400,6 +400,18 @@
                     "image": "./logbook/images/2024-01-10.png",
                     "video_url": "",
                     "alt_text": ""
+                },
+            "11":{
+                    "weekday": "Thurdat",
+                    "project":"doors",
+                    "objective":"Today I’ll get back into coding, wan’t to test some rendering examples of the ASCII - ‘door’. Also need to produce and schedule some new links in content, the content that's been working best is code examples, so I'll fix a few of those with the LaTex boilerplate I've made. And see if I can reuse some old text posts in the new visual PDF-slides format I'm using - [10:00]",
+                    "methods":"Created a script for rendering a ASCII-graphics door, and i'm really satisfied with the look and feel of. The example has a 50ms sleep method and It gives a very retro hacker vibe to it. The function taks a text document with the door graphics and then does some string manipulation to insert data from a json file with the door properties. The goal of the game would be to get all values down to 0 in order to open the door - [23:30].",
+                    "agenda":["Doors rendering script"],
+                    "insights":"Because the door is rendered line by line it feels like turning a page, which fits the concept of studying while gaming. The future version will have many rendering capabilities but for now this is enough to get the idea - [23:30].",
+                    "conclusions":"Even though this week's progress so far feels small, I'm satisfied with moving forward  - [23:30].",
+                    "image": "",
+                    "video_url": "https://www.youtube.com/embed/qhhHWj_0xgA?si=yPaldKX33sV0jRX6",
+                    "alt_text": ""
                 }
             }
     }
