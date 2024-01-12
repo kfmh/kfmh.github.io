@@ -402,7 +402,7 @@
                     "alt_text": ""
                 },
             "11":{
-                    "weekday": "Thurdat",
+                    "weekday": "Thurday",
                     "project":"doors",
                     "objective":"Today I’ll get back into coding, wan’t to test some rendering examples of the ASCII - ‘door’. Also need to produce and schedule some new links in content, the content that's been working best is code examples, so I'll fix a few of those with the LaTex boilerplate I've made. And see if I can reuse some old text posts in the new visual PDF-slides format I'm using - [10:00]",
                     "methods":"Created a script for rendering a ASCII-graphics door, and i'm really satisfied with the look and feel of. The example has a 50ms sleep method and It gives a very retro hacker vibe to it. The function taks a text document with the door graphics and then does some string manipulation to insert data from a json file with the door properties. The goal of the game would be to get all values down to 0 in order to open the door - [23:30].",
@@ -411,6 +411,18 @@
                     "conclusions":"Even though this week's progress so far feels small, I'm satisfied with moving forward  - [23:30].",
                     "image": "",
                     "video_url": "https://www.youtube.com/embed/qhhHWj_0xgA?si=yPaldKX33sV0jRX6",
+                    "alt_text": ""
+                },
+            "12":{
+                    "weekday": "Friday",
+                    "project":"doors",
+                    "objective":"Today I really need to produce some LinkedIn content, been slacking off on that front and my buffer of scheduled content is running out. Besides that I'll start testing some basic game mechanics, and decide on whether to create a flask web UI or keep it to terminal for the time being - [10:30].",
+                    "methods":"Found a native python library that is exactly what i need ‘curses’. I've never heard of it before but it is used for creating text-based user interfaces, and I was able to make a simple test that looks very much like the original Rogue game  - [23:30].",
+                    "agenda":["Doors rendering script"],
+                    "insights":"At some point I will need to start user testing but building out a web UI doesn't feel like time well spent, unless the web framework is something I can use for a later version. I have experience building with Flask as a backend web framework, and if it is required to get someone to test, that’s what I’ll do  - [10:30]. I like the Roguelike feature of procedurally generating levels, and the use of navigating between rooms like in the original Rogue game. I have a faint memory of reading, that activating the part of the brain used for learning direction to a location, can help with memory, like learning a formula as a song. Having the player navigate to resources might be advantages for learning  - [23:30].",
+                    "conclusions":"I'm at a stage where I have a lot of good ideas, and now I need to code them  - [23:30].",
+                    "image": "",
+                    "video_url": "https://www.youtube.com/embed/TvCFmIIHgac?si=w8CAmYveQgeKanbb",
                     "alt_text": ""
                 }
             }
