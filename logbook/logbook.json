@@ -424,6 +424,18 @@
                     "image": "",
                     "video_url": "https://www.youtube.com/embed/TvCFmIIHgac?si=w8CAmYveQgeKanbb",
                     "alt_text": ""
+                },
+            "13":{
+                    "weekday": "Saturday",
+                    "project":"doors",
+                    "objective":"Today I'm eager to build the first game mechanics for ‘Doors’, it will be a text based terminal role playing game. I’ll look at building classes and functions to handle player data. If I have time I’ll keep working on the procedural level generation - [08:30].",
+                    "methods":"Created a basic player class that updates a json file with player data and tested some more game play movement logic - [22:30].",
+                    "agenda":["Doors game mechanics"],
+                    "insights":"I’ve started reading the book ‘Limitless’ by Jim Kwik. It's about learning and improving comprehension and memory. In it he is using the metaphor of ‘the hero's journey’ a lot and I have a memory of hearing Dr Jordan Peterson talking about writing one's own improvement goals as being the hero of one's story. This led me to think of each player starting with only a Name, that they pick themselves. Then a cornerstone feature is to venture out and find new skills to add ass attributes. Maybe adding some sort of uniqueness to each player's own learning journey - [22:30].",
+                    "conclusions":"Didn’t get as much coding done as I wanted but I have refined the idea further, Sunday is always a great day for coding - [22:30].",
+                    "image": "",
+                    "video_url": "https://www.youtube.com/embed/FzN8WEpAz2o?si=hufWhP_r6DGmxAVp",
+                    "alt_text": ""
                 }
             }
     }
