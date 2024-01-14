@@ -40,7 +40,7 @@
         padding: 15px 20px 20px 20px;
         left: 100%; 
         top: 0;
-        width: 165px;
+        width: 225px;
         z-index: 10;
         height: 100vh;
         transition: left 0.6s;
@@ -55,14 +55,21 @@
 
     
     .logbook_nav.is-active {
-        left: calc(100% - 200px);
+        left: calc(100% - 260px);
     }
     
     .logbook_nav h2 {
         font-size: 1rem;
     }
     
-
+    #project_links {
+        display: flex;
+        flex-direction: column;
+    }
+    #project_links a {
+        margin: 4px 0 0 20px;
+    }
+    
     .menu-container {
         display: block;
         position: fixed;
