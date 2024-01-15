@@ -448,6 +448,19 @@
                     "image": "",
                     "video_url": "https://www.youtube.com/embed/88PQoyVbBYw?si=Ck4s7GHxxWT_7xRY",
                     "alt_text": ""
+            },
+            "15":{
+                    "weekday": "Monday",
+                    "project":"doors",
+                    "objective":"New day and week. Had a really relaxed weekend, and I feel well rested with a lot of new ideas. Today I need to look at the 12-week plan and estimate progress. Read about Test Driven Development (TDD) this morning and want to test that development framework on a feature. Doors is at the moment a procedurally generated maze, and empty. So I need to fill it with something. In order to meet my vision the project needs to heavenly rely on tests, so that anyone can contribute with eaze. This might have to be a ‘tests’ week - [09:00].",
+                    "agenda":["Doors game mechanics test"
+                    ,"Review 12-week plan"],
+                    "methods":"Did not get much done on the code, but tested spawning game items.Did not do any TDD, but i'll look into that once i start refactoring code. Looked over my 12 week plan and evaluated my targets - [00:00].",
+                    "insights":"I need to schedule specific work hours for the project to meet my target, as the code base grows I need to be more methodical with managing my time. A fun thing though, I got my first subscriber on youtube, a big milestone. And I’ve received three positive comments on these short progress videos, it made my day - [00:00].",
+                    "conclusions":"Time management is something I need to work on - [00:00].",
+                    "image": "",
+                    "video_url": "https://www.youtube.com/embed/1CMAqtsEjPw?si=H6SfkDL9f6KwZ8k9",
+                    "alt_text": ""
                 }
             }
     }
