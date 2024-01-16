@@ -461,6 +461,18 @@
                     "image": "",
                     "video_url": "https://www.youtube.com/embed/1CMAqtsEjPw?si=H6SfkDL9f6KwZ8k9",
                     "alt_text": ""
+            },
+            "16":{
+                    "weekday": "Tuesday",
+                    "project":"doors",
+                    "objective":"Today I'm testing Test Driven Development (TDD) on game item imports from a json file. Something small so I can focus on creating good tests. I also need to move all game mechanics development from the ‘tests’ branch ‘gamemechanics’ branch - [08:30]",
+                    "agenda":["game_item.json TDD tests,", "move development to side new branch"],
+                    "methods":"Tested the ‘Test Driven Development’ (TDD) approach, and I must say it is a perfect approach for this project. It’s a slower approach but generating the tests at the same time as the code I think saves a lot of time. For now I will only do TDD for the json imports, which serve as the first gateway for community contributions in the form of courses. When I come to a stage where the project starts taking an MVP structure I’ll circle back and use the TDD approach while refactoring  - [22:30].",
+                    "insights":"I’m reading a book at the moment about learning, and in it the author mentions ‘small win wins’ leads to mentum, and I've heard it before. In the other book about programming and TDD I found yesterday, the author mentions the ‘Sorites Paradox’, and uses it as breaking down any size programming task into small grains of sand and removing them one by one. I'm good at breaking down large tasks into chunks but I'll try the Sorites Paradox method - [08:30] I got 8 new subscribers overnight on youtube, and got a bunch of positive comments. It Feels really surreal because the game tests are less than a minute and there is no commentary. But I am literally giggling with joy. From the comments it seems to be other developers taking interest, and developers are always nice people - [22:30].",
+                    "conclusions":"Developers are nice people! I’m at a good place with the project and if I keep this pace I’ll have a working POC by the end of next week - [22:30].",
+                    "image": "./logbook/images/2024-01-16.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
