@@ -41,13 +41,24 @@ let currentSelectedLink = null;
             if (data_json.video_url === '') {
                 ytVideo.classList.add('hide');
                 ytVideo.src = '';
-                if (data_json.image === '') {
-                    media.classList.add('hide');
-                }
             } else {
                 ytVideo.classList.remove('hide');
                 ytVideo.src = data_json.video_url;
             }
+
+            if (data_json.image === '') {
+                image.classList.add('hide');
+            } else {
+                image.classList.remove('hide');
+                image.src = data_json.image; // Update the image source
+            }
+
+            if (data_json.image === '' && data_json.video_url === '') {
+                media.classList.add('hide');
+            } else {
+                media.classList.remove('hide');
+            }
+            
             if (data_json.image != '' || data_json.video_url != '') {
                 media.classList.remove('hide');
             }
