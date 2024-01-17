@@ -473,6 +473,18 @@
                     "image": "./logbook/images/2024-01-16.png",
                     "video_url": "",
                     "alt_text": ""
+            },
+            "17":{
+                    "weekday": "Wednesday",
+                    "project":"doors",
+                    "objective":"Today I'm refining the game mechanics, right now there is a leading dot and a tail of one coordinate, illuminating the path in all 4 directions and I want to up that with 3 on the tail and 2 leading. I also want there to be ‘illumination pickups’ that reveal the entire map for a few game loop cycles. And i need to do some reading on reinforcement learning reward functions, going to look at ‘Proximal Policy Optimization’ (PPO) - [07:30]",
+                    "agenda":["illumination pickups", "player path tails", "Study (PPO)"],
+                    "methods":"Got done with the illumination pickup test, and added an extra radius to the visible path. A lot of time was spent on separating vital functions into different modules. But as the codebase grows I'm noticing the lack of documentation. For anyone else to navigate the game mechanics would be a nightmare. Tomorrow I should take the day to clean up, refactor and create docstrings. Read about PPO, but very briefly. Will need to do some practical tests for it to sink in. I read about an example of a tetris playing agent that sounds like a fun exercise - [23:00].",
+                    "insights":"The audiobook I'm listening to now,  ‘Limitless’ by Jim Kwik, is really inspiring. He grew up with a learning disability and now is a leading voice in techniques on how to learn, remember comprend information at an accelerated rate. It sounds like snake oil from first glance but he talks about it in terms of very simple techniques that require no high level of intellect to implement. It’s akin to getting physically fit. There is now magic-trick, just do the workout, and live healthy. But when it comes to learning most of us don't even know what the different learning-workouts are. I truly believe human intellect has barely scratched the surface, and we will look back at current higher academic goals as average cognitive skills for our children  - [23:00].",
+                    "conclusions":"It’s been a good day, it always feels like the day isn’t nearly as long as it should be but that’s probably a good thing  - [23:00].",
+                    "image": "",
+                    "video_url": "https://www.youtube.com/embed/FGsBGA2Xdos?si=WwyCZRCHmIWNjcJ6",
+                    "alt_text": ""
                 }
             }
     }
