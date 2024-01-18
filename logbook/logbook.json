@@ -485,6 +485,18 @@
                     "image": "",
                     "video_url": "https://www.youtube.com/embed/FGsBGA2Xdos?si=WwyCZRCHmIWNjcJ6",
                     "alt_text": ""
+            },
+            "18":{
+                    "weekday": "Thursday",
+                    "project":"doors",
+                    "objective":"I need to set aside some time for a Linked In post, my scheduled buffer is empty but this is a pristine time to study some new topics and respite some old. I will also start the code cleanup by moving the game mechanics from devs.py to game.py and refactoring along the way. I will also update the maze generation. I have some ideas I want to implement. The maze should cover more of the available space, and for that the generation algorithm needs to be updated - [07:30]",
+                    "agenda":["Game Loop cleanup", "Improve generate_maze", "LinkedIn posts"],
+                    "methods":"Dusted off Adobe Illustrator and created an infographic that I will make into a series of posts. These can serve as “bread and butter” content that I can produce relatively quickly to fill in the gaps where energy or productivity is low, and I also enjoy the process of infographic typography. Refactored generate_maze function and improved it slightly but as i increase the size of the board the function leaves large segments un-mazed. But rather than alter this function more I will create a new one that generates a different style maze. Most of the functions are in place and separated into appropriate manuals. Next is to implement the doors that are the main feature of the game play - [22:30]",
+                    "insights":"The game is coming along nicely and I’m trying to resist the urge of starting another project. Once the course functionality is in place I can start creating tutorials on how to use the project which will serve as marketing tool as well - [22:30]",
+                    "conclusions":"I have difficulty with not spreading myself thin and working on too many parts at the same time. Even Though they all serve as segments of a greater whole, I need to finish one part before moving on to another - [22:30]",
+                    "image": "./logbook/images/2024-01-18.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
