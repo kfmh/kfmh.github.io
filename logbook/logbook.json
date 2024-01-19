@@ -497,6 +497,18 @@
                     "image": "./logbook/images/2024-01-18.png",
                     "video_url": "",
                     "alt_text": ""
+            },
+            "19":{
+                    "weekday": "Friday",
+                    "project":"doors",
+                    "objective":"Feeling good this morning! I want to start experimenting on how to create courses next week, and what's left for that is to add the Doors. This is an anticipated step and milestone, but I know what to do. This won't be the final framework but It’s a great place to start - [08:00]",
+                    "agenda":["Place Door in Maze", "Redner door from Maze"],
+                    "methods":"The doors are in place procedurally placed as the game starts. Each door is for now a dictionary with parameters symbolizing the doors composition. This is where educators will have to be creative and figure out what the “key” features for understanding the topic being taught are to craft Door parameters. Then sprinkle the map with quest or loot to unlock the Door - [23:00]",
+                    "insights":"Small continuous steps lead to great accomplishments. Consistency is my achilles heel, but “this time feels different” - [23:00]",
+                    "conclusions":"The codebase I growing in complexity and it is soon critical for me to start refactoring - [23:00]",
+                    "image": "./logbook/images/2024-01-19.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
