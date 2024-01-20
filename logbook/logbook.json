@@ -509,6 +509,18 @@
                     "image": "./logbook/images/2024-01-19.png",
                     "video_url": "",
                     "alt_text": ""
+            },
+            "20":{
+                    "weekday": "Saturday",
+                    "project":"doors",
+                    "objective":"It’s Saturday and the week is almost finished. Today I’m just focusing on catching up with tasks, fortunately I'm at a good place with the Doors game, but the code is a mess and I need to start refactoring before moving on with implementing the core mechanics of the entire program, creating engaging courses - [10:00]",
+                    "agenda":["Refactor Graphics.py", "Upload progress video"],
+                    "methods":"I enjoy the refactoring process, learning how to pass operators as arguments to functions which is really useful. I'm using lists of arguments and passing them as iterables in for-loops to generate compressed functions  - [22:30]",
+                    "insights":"Refactoring is maybe the most enjoyable part of coding, it’s intellectually challenging in a vary reading way. For the next features I will do the test driven development approach. I was thinking about the TDD approach and It dawned on me that the Doors framework for creating educational courses will be akin to TDD: as an educator you create the test first which is the ”Door” then you create the course which is the game that must be played to open the Door. What I gather from TDD is to not do more than is required to pass the test. This might sound bad for learning, but I believe it makes for learning that is directly applied. Which is how it works in the real world. You are faced with a challenge and then need to figure out how to overcome it. As an educator you have to come up with engaging challenges - [22:30]",
+                    "conclusions":"I’m on top of things and moving in the right direction. Not as fast as I want but I’m doing a lot of things for the first time and gaining new valuable experiences - [22:30]",
+                    "image": "",
+                    "video_url": "https://www.youtube.com/embed/Qghj_IY6Zdc?si=iUJbcmdrQrRE7nNh",
+                    "alt_text": ""
                 }
             }
     }
