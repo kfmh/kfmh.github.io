@@ -521,6 +521,18 @@
                     "image": "",
                     "video_url": "https://www.youtube.com/embed/Qghj_IY6Zdc?si=iUJbcmdrQrRE7nNh",
                     "alt_text": ""
+            },
+            "21":{
+                    "weekday": "Saturday",
+                    "project":"doors",
+                    "objective":"Today I’ll do refactoring on game_mechanics.py and improve docstrings. If I have time I will start writing some tests and create some Linked In posts. But I doubt I'll have the energy. I think I should take some time to just play chess, watch some series and relax today as well - [07:30]",
+                    "agenda":["Refactor game_mechanichs.py", "Linked in posts"],
+                    "methods":"Manages to get mayne an hour of refactoring done, and the overall code readability is decent now. Got a book review and an infographic done, so over all the day was pretty productive - [22:30]",
+                    "insights":"Played a lot of chess today, 3min Blitz is the best! And it reminded me of a feature I want to implement. In the book, Why we sleep by Matthew Walker, he mentions that our hours of cognitive pike performance is different and may vary depending on if you are nocturnal or diurnal, energetic at night or day. And blitz is a very repetitive and fast paced form of chess, and I notice straight away if I'm in a high or low congestive state when I play. The feature would be something more simple then chess but that requires fast responses that are near automatic. I would create an analytical model that gives a personal score to determine if you are at your best or not. Over time you could determine at what time of day you function best - [22:30].",
+                    "conclusions":"It’s been a good week, and things are coming along nicely. There is still a lot I can improve with my work routines. Tomorrow is a new week! Let’s Go! - [22:30].",
+                    "image": "./logbook/images/2024-01-21.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
