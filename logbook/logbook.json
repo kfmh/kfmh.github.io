@@ -533,6 +533,18 @@
                     "image": "./logbook/images/2024-01-21.png",
                     "video_url": "",
                     "alt_text": ""
+            },
+            "22":{
+                    "weekday": "Saturday",
+                    "project":"doors",
+                    "objective":"New week, new opportunities. It’s time to create the genesis course. This is a tutorial course, and the player's goal is to find the “random seed”. Which in programming is a number that sets the starting point of a random number algorithm so the numbers are reproducible between runs. This is so the players start by setting up a reproducible maze generation - [07:30].",
+                    "agenda":["Genesis course", "Linked in posts"],
+                    "methods":"I'm practically only focusing on the proof of concept architecture of the doors project. The game is procedurally generated from a json dictionary, this is so that anyone can easily create courses without the need for programming. I’ve been writing a table for the “hero's journey” and how it could be structured as a json dictionary from which the game can spawn game resources. The “genesis” course which every player starts with is for now just “finding a random seed” in the form of a sha-256 hash of something im not sure yet. It would be interesting if every new player finds there own unique word combination to hash that set up there character - [22:30]",
+                    "insights":"I started a new audio book, “Building a Story Brand” which discusses a framework for marketing in the form of storytelling, and more specifically the heroes' arc. It makes a lot of sense and I’ve been pondering creating a framework for creating educational game courses as the typical hero's journey. So this book is a perfect compliment to this section of the POC - [22:30]",
+                    "conclusions":"This part of exploration is always an uncharted journey, I have a feeling of what it should be, it’s at the tip of my thought but I'm not sure how to get it out. Luckily I have the book to give me some inspiration - [22:30]",
+                    "image": "./logbook/images/2024-01-22.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
