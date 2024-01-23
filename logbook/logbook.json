@@ -523,7 +523,7 @@
                     "alt_text": ""
             },
             "21":{
-                    "weekday": "Saturday",
+                    "weekday": "Sunday",
                     "project":"doors",
                     "objective":"Today I’ll do refactoring on game_mechanics.py and improve docstrings. If I have time I will start writing some tests and create some Linked In posts. But I doubt I'll have the energy. I think I should take some time to just play chess, watch some series and relax today as well - [07:30]",
                     "agenda":["Refactor game_mechanichs.py", "Linked in posts"],
@@ -535,7 +535,7 @@
                     "alt_text": ""
             },
             "22":{
-                    "weekday": "Saturday",
+                    "weekday": "Monday",
                     "project":"doors",
                     "objective":"New week, new opportunities. It’s time to create the genesis course. This is a tutorial course, and the player's goal is to find the “random seed”. Which in programming is a number that sets the starting point of a random number algorithm so the numbers are reproducible between runs. This is so the players start by setting up a reproducible maze generation - [07:30].",
                     "agenda":["Genesis course", "Linked in posts"],
@@ -543,6 +543,18 @@
                     "insights":"I started a new audio book, “Building a Story Brand” which discusses a framework for marketing in the form of storytelling, and more specifically the heroes' arc. It makes a lot of sense and I’ve been pondering creating a framework for creating educational game courses as the typical hero's journey. So this book is a perfect compliment to this section of the POC - [22:30]",
                     "conclusions":"This part of exploration is always an uncharted journey, I have a feeling of what it should be, it’s at the tip of my thought but I'm not sure how to get it out. Luckily I have the book to give me some inspiration - [22:30]",
                     "image": "./logbook/images/2024-01-22.png",
+                    "video_url": "",
+                    "alt_text": ""
+            },
+            "23":{
+                    "weekday": "Tuesday",
+                    "project":"doors",
+                    "objective":"No more mucking around, time to code.  I have a basic idea of what the Genesis course should be, the rest I can figure out as I code. I also need to keep loading my LinkedIn post buffer. - [07:00]",
+                    "agenda":["Genesis course", "Linked in posts"],
+                    "methods":"Never got around to code, kept mucking around, but I finished a new tutorial “8 ways to use print()” and I'm halfway through the audio book on how to use storytelling for marketing. I’ve started being more conscious of copy and because of that it is taking longer to create content - [22:30]",
+                    "insights":"The framework described in the book might be exactly what I'm looking for. We all want to be the heroes of our own life, and if Doors can be a tool for building that stroy yourself that would be a very strong tool for learning - [22:30]",
+                    "conclusions":"I know where to start, and tomorrow I'm setting up an appointment with me, myself, and the keyboard - [22:30]",
+                    "image": "./logbook/images/2024-01-23.png",
                     "video_url": "",
                     "alt_text": ""
                 }
