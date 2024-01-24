@@ -557,6 +557,18 @@
                     "image": "./logbook/images/2024-01-23.png",
                     "video_url": "",
                     "alt_text": ""
+            },
+            "24":{
+                    "weekday": "Wednesday",
+                    "project":"doors",
+                    "objective":"Going to finish listening to “Building a Story Brand” today and at the same time draw up the genesis course on paper. If I have time I will start designing a json template - [08:30]",
+                    "agenda":["Genesis course"],
+                    "methods":"Finished listening to the book, and the framework for storytelling and branding is intuitive since it follows the hero's journey. And in the form of educational gameplay it will work well. What I'm having trouble with is starting creative work. The first course will be called Genesis and will be a course every new player has to take. It needs to be simple and explain the basics of the game mechanics - [23:30]",
+                    "insights":"Hade a new LinkedIn post featured on large Python Community with over 2 million followers. This post was very scaled back, not really any text at all, just very short code examples, and it is the post that has been most successful. I think it has to do with familiarity, it was about the print() function which is safe to say that anyone that has ever tried coding in python, if only for a few minutes, has used. But there were also things that many maybe never had tried  - [23:30]",
+                    "conclusions":"I will have to explore this further when it comes to short-form educational content. Familiarity is welcoming, which is a good feeling when exploring a new topic, and once you're engaged we can sprinkle something new into the mix  - [23:30]",
+                    "image": "./logbook/images/2024-01-24.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
