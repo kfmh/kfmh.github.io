@@ -569,6 +569,18 @@
                     "image": "./logbook/images/2024-01-24.png",
                     "video_url": "",
                     "alt_text": ""
+            },
+            "25":{
+                    "weekday": "Wednesday",
+                    "project":"doors",
+                    "objective":"Today I will get started with implementing code for the Genesis course. I'm a bit creatively lost, lucky i have my notes from the “Building a Story Brand” book - [09:00]",
+                    "agenda":["Genesis course"],
+                    "methods":"Still no code for the genesis course, started working on another project that is a course in reinforcement learning. I might have to create some traditional material to have a sense of how to build the course structure - [22:30]",
+                    "insights":"Engaging and delivering a great product to customers is the same as creating a good course. You solve an emotional need that promises they can become a person that no longer has worries or concerns. Knowledge and education is the “teach a man to fish” expression. Learning how to sell it will be a challenge - [09:00].",
+                    "conclusions":"Some weeks aren't going to be as good as others. Still have the weekend to create. - [22:30]",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
