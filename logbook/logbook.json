@@ -581,6 +581,18 @@
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
+            },
+            "26":{
+                    "weekday": "Friday",
+                    "project":"Tetris RL Course",
+                    "objective":"Today is all about tetris. I’m designing a “zero-to-hero” reinforcement learning course. I’ve noticed that I might need some real experience with creating traditional courses to get some inspiration for building out the course framework on Doors. The original Tetris was ASCII-graphics which is a great method for learning the basics of python. And then add some advanced python with a Q-learning strategy and an epsilon greedy strategy for reinforcement learning. This might take me a few days to a week, and will be a great side project to get me back on track - [07:00]",
+                    "agenda":["Tetris course framework."],
+                    "methods":"The course will be layered, and the final completed course will leave the student with a web application, where that can deploy their model and showcase it. I’ve never deployed a full stack python web-app before but I know firebase and if I'm not mistaken I can deploy a containerized python application there. I also started a new content series “Reinforcement learning Glossary”. It will be a good practice defining common terms with an occam's razor approche. - [22:00].",
+                    "insights":"There are infinite ways to pick apart a subject, and there is a power to sharing knowledge. The saying “you lear the most if you teach” is very true. Creating content, even though I already know most of what I share. The process of formatting knowledge for someone else to learn from, makes the neural pathways really start cooking  - [22:00].",
+                    "conclusions":"I know I can do more, but down time with the family is a good way to recharge. I got a lot of good ideas away from the computer as well - [22:00].",
+                    "image": "./logbook/images/2024-01-26.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
