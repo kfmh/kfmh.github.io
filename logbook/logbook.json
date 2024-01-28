@@ -593,6 +593,18 @@
                     "image": "./logbook/images/2024-01-26.png",
                     "video_url": "",
                     "alt_text": ""
+            },
+            "28":{
+                    "weekday": "Sunday",
+                    "project":"Tetris RL Course",
+                    "objective":"Sunday-funday, taking is slow and outlining the project structure. Tetris RL course would be a Zero-to-Hero course, as a comprehensive guide to fundamental practices in Python and reinforcement learning - [12:00]",
+                    "agenda":["Tetris course framework."],
+                    "methods":"The two main projects will be: 1. Python fundamentals, where students build a stand alone Teris terminal game to learn python fundamentals from print(“hello world”) to deploying a python package. 2. Creating a reinforcements learning agent that learns to play the game with Q-learning and epsilon-greedy strategy - [22:00].",
+                    "insights":"Formatting information for educational purposes really is an accelerated way of learning. It would be useful to incorporate a teaching feature in the Doors mechanics  - [22:00].",
+                    "conclusions":"Educational technology Is a valuable field, not only monetarily but also practically and emotionally - [22:00].",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
