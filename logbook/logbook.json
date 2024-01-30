@@ -610,11 +610,23 @@
                     "weekday": "Monday",
                     "project":"Tetris RL Course",
                     "objective":"Monday and a new week. I have been putting off work over the weekend but I'm well rested and have new ideas to start playing with. Today I'm starting with the first course out of 2 courses for the Tetris reinforcement learning course. Python fundamentals. I’m not sure where to start but my plan is to build the game with ASCII graphics and write a comprehensive test suite. So students can experiment as long as they pass the test - [08:00]",
-                    "agenda":["Tetris course framework."],
+                    "agenda":["Tetris game play"],
                     "methods":"The python fundamentals course is composed of creating a functional game loop of the original tetris design with ASCII graphics. I'm creating a test suite using python standard library “unittest” for the absolute bare minimum game functionality. So the student will do the work and run the test to see if they pass, mimicking a school test but in the development world - [22:00].",
                     "insights":"Creating educational content is an explorative practice. I read this article that made me literally laugh out loud. Apparently the tetris cubes have names - [22:00].",
                     "conclusions":"This project can be a winner I can use for marketing myself as well as a gateway to other projects  - [22:00].",
                     "image": "./logbook/images/2024-01-29.png",
+                    "video_url": "",
+                    "alt_text": ""
+            },
+            "30":{
+                    "weekday": "Tuesday",
+                    "project":"Tetris RL Course",
+                    "objective":"Focusing on core game mechanics and hopefully Ii will push a functioning game loop today. It is not very difficult game mechanics but it’s a bit of an intellectual challenge writing clean and concise code for an educational purpose. What is too little and what is too much for someone new to python. [07:30]",
+                    "agenda":["Tetris game play"],
+                    "methods":"The code base is growing fast, I'm especially pleased with only using standard libraries and fundamental coding practices. Generating and moving pisces is done, what's left is rotating and removing complete lines - [22:30]",
+                    "insights":"This project has all the beginning elements of learning python and some intermediate to advanced functionality. I'm contemplating how best to break it down into short and manageable segments for someone that is a complete novice. I remember when starting with python that just getting environment work was drafting enough so not having to rely on any 3rd party libraries i think will make it a smoother initiation to python programming even though it’s a bit of code - [22:30]",
+                    "conclusions":"“There is infinite beauty in the details” is a quote that comes to mind. There are infinite ways to write code and and even more ways to teach that code - [22:30]",
+                    "image": "./logbook/images/2024-01-30.png",
                     "video_url": "",
                     "alt_text": ""
                 }
