@@ -605,6 +605,18 @@
                     "image": "",
                     "video_url": "",
                     "alt_text": ""
+            },
+            "29":{
+                    "weekday": "Monday",
+                    "project":"Tetris RL Course",
+                    "objective":"Monday and a new week. I have been putting off work over the weekend but I'm well rested and have new ideas to start playing with. Today I'm starting with the first course out of 2 courses for the Tetris reinforcement learning course. Python fundamentals. I’m not sure where to start but my plan is to build the game with ASCII graphics and write a comprehensive test suite. So students can experiment as long as they pass the test - [08:00]",
+                    "agenda":["Tetris course framework."],
+                    "methods":"The python fundamentals course is composed of creating a functional game loop of the original tetris design with ASCII graphics. I'm creating a test suite using python standard library “unittest” for the absolute bare minimum game functionality. So the student will do the work and run the test to see if they pass, mimicking a school test but in the development world - [22:00].",
+                    "insights":"Creating educational content is an explorative practice. I read this article that made me literally laugh out loud. Apparently the tetris cubes have names - [22:00].",
+                    "conclusions":"This project can be a winner I can use for marketing myself as well as a gateway to other projects  - [22:00].",
+                    "image": "./logbook/images/2024-01-29.png",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
