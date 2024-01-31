@@ -629,6 +629,18 @@
                     "image": "./logbook/images/2024-01-30.png",
                     "video_url": "",
                     "alt_text": ""
+            },
+            "31":{
+                    "weekday": "Wednesday",
+                    "project":"Tetris RL Course",
+                    "objective":"I am attending a public lecture at Skövde Science Park today with my father, but I'm still confident I will manage to get some hours in on the first course section of Python-fundamentals. Wrapping up the final parts of the game functionality with tracking score, level and rotating pieces - [08:00]",
+                    "agenda":["Tetris game play"],
+                    "methods":"Rotation was the hardest nut to crack then I thought, and I haven't had much time to work. I'll have to come back tomorrow and draw it on paper - [23:00]",
+                    "insights":"Not much insight today, except the type of educational content on linked in that seems to work best is a sweat spot beaten verbose and familiar. Too short information or to advanced doesn't really get noticed. I haven't tried any humorous memes, I wonder if there is a way to use memes as educational trojan horses - [23:00]",
+                    "conclusions":"It was nice to go for a drive today with my father - [23:00]",
+                    "image": "",
+                    "video_url": "",
+                    "alt_text": ""
                 }
             }
     }
