@@ -642,6 +642,20 @@
                     "video_url": "",
                     "alt_text": ""
                 }
+            },
+        "Feb": {
+            "01":{
+                "weekday": "Thursday",
+                "project":"Tetris RL Course",
+                "objective":"I intend to finish the rotation functions for the game. There are many ways to solve this and I'm looking for an Occam's razor solution with simple clean code. I’ll draw it on paper and see what I get and then eventually refactor - [07:30]",
+                "agenda":["Tetris game play"],
+                "methods":"Game is finished and separated into 2 modules, game_ui and game_logic. I am still only using standard libraries, and importing the shapes from a json file. There is a bit of everything in the course  - [22:00]",
+                "insights":"The only thing I'm concerned about is copyright infringement, I think I can get around it since it is meant for educational purposes. I'm new to marketing tactics, and I'm planning on using this as a sort of lead generation for online sales of other digital materials  - [22:00]",
+                "conclusions":"I’ll read more about Tetris copyright and since i'm not distributing a game and programmer build their own version and design it will most likely be fine - [22:00]",
+                "image": "",
+                "video_url": "",
+                "alt_text": ""
             }
+        }
     }
 }
