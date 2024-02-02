@@ -139,9 +139,10 @@ document.addEventListener('DOMContentLoaded', function() {
             let yearsDiv = document.getElementById('years');
             let monthsDiv = document.getElementById('months');
             let daysDiv = document.getElementById('days');
-
+            const monthMapping = {Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12};
             let latestYear = Object.keys(data).sort().reverse()[0];
-            let latestMonth = Object.keys(data[latestYear]).sort().reverse()[0];
+            // let latestMonth = Object.keys(data[latestYear]).sort().reverse()[0];
+            let latestMonth = Object.keys(data[latestYear]).sort((a, b) => monthMapping[b] - monthMapping[a])[0];
             let latestDate = Object.keys(data[latestYear][latestMonth]).sort().reverse()[0];
             f2(latestYear, latestMonth, latestDate);
 

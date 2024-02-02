@@ -655,6 +655,18 @@
                 "image": "",
                 "video_url": "",
                 "alt_text": ""
+            },
+            "02":{
+                "weekday": "Friday",
+                "project":"Tetris RL Course",
+                "objective":"So the game is mostly finished, now I need to refactor and add documentation. Even Though tetris doesn't sound like a complicated game to code, it’s a lot to keep track of as a new programmer, so I will have to divide the course into manageable chunks, not too hard and not to eazy. What I look forward to is creating the space for adding once own flare to the game in terms of block design, game board and colors - [07:30]",
+                "agenda":["Code refactoring", "Course notebooks"],
+                "methods":"Refactored game_ui function and the code readability is better. Started writing jupyter notebooks for learning the fundamental concepts used in the code, it is difficult keeping it short and concise - [22:00]",
+                "insights":"The fundamentals part is meant to be for beginners but it might be a bit optimistic. This is something I would need user feedback on - [22:00]",
+                "conclusions":"This is an attempt at gaining insight and experience on creating courses, and I’ve already learned a lot, but feedback is needed to make sense of what is good or bad. But I have to finish the course first - [22:00]",
+                "image": "",
+                "video_url": "",
+                "alt_text": ""
             }
         }
     }
