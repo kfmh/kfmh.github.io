@@ -667,6 +667,18 @@
                 "image": "",
                 "video_url": "",
                 "alt_text": ""
+            },
+            "03":{
+                "weekday": "Saturday",
+                "project":"Tetris RL Course",
+                "objective":"I woke up in the middle of the night and contemplated the Tetris course and decided to focus solely on explaining the function used when building the game and leave out any other fundamental aspects, my logic behind this is that the audience I will be addressing are seeking a straight forward tutorial and want to get to the “meat and gravy” from the start - [07:30]",
+                "agenda":["Code refactoring", "Course notebooks"],
+                "methods":"Got more code refactoring done, polished some game logic and fixed some bugs. Started looking at the reinforcement learning module and will have to use deep-Q-learning since the state space will be too large to create an initial Q-table. This is kind of new territory for me and the educational material I find uses environment libraries, while I want to implement my own environment. This is an exciting challenge - [23:30]",
+                "insights":"Deep-q-learning can be used for creating trading algorithms, which is something i've been thinking about playing so that’s an extra plus - [23:30]",
+                "conclusions":"Creating a course is a nurturing process and all this is fairlie new, I can’t say if it’s good or bad until someone tries the course - [23:30]",
+                "image": "",
+                "video_url": "",
+                "alt_text": ""
             }
         }
     }
