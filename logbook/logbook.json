@@ -679,6 +679,18 @@
                 "image": "",
                 "video_url": "",
                 "alt_text": ""
+            },
+            "04":{
+                "weekday": "Sunday",
+                "project":"Tetris RL Course",
+                "objective":"It’s Sunday and I was hoping for the python fundamental course to be finished but it’s safe to say that it won’t be complete. I will however fish strong with testing deep-Q-learning so that code for the RL course is mostly complete. Then if I have time I can start working on breaking it up into exercises for a course framework - [9:00]",
+                "agenda":["Deep-Q-Learning"],
+                "methods":"For some reason I thought it was going to be relatively simple to train a model with the Tetris game I’ve made, but creating a training environment required that I change the initial structure of the code and that took more time than anticipated. The training environment is mostly done and I might get some test done tomorrow - [23:00]",
+                "insights":"Creatine an environment from scratch is a really useful piece of knowledge, Im grasping new mental picture of how the agent learns, and with that I can potentially solve other RL tasks - [23:00]",
+                "conclusions":"Reinforcement Learning is maybe the coolest thing ever - [23:00]",
+                "image": "",
+                "video_url": "",
+                "alt_text": ""
             }
         }
     }
