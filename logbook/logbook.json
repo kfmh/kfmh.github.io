@@ -691,6 +691,18 @@
                 "image": "",
                 "video_url": "",
                 "alt_text": ""
+            },
+            "05":{
+                "weekday": "Sunday",
+                "project":"Tetris RL Course",
+                "objective":"It’s Monday again, and I’m a bit behind schedule since I changed the plan on the type of course it will be. There are a lot of tutorials for creating your own reinforcement learning projects, but i think doing it with tetris might stand out. I'm not sure how it will work for beginners but that is part of the challenge, to make something that anyone can take part of, no matter prerequisite knowledge. I imagine some sort of dynamic format that can accommodate and engage curiosity for beginners as well as seasoned programmers - [07:30]",
+                "agenda":["action", "state", "reward"],
+                "methods":"Finally I have the environment working, with action, state and reward functions in place. What's left is designing a neural net for training. It was a valuable lesson to redesign the game classes to fit the environment step-function, not as hard as I initially thought it would be - [22:30]",
+                "insights":"Building the environment from scratch is a valuable lesson and I already have ideas of designing the trading bot course which might be a course I can sell. I started thinking about creating a python package similar to OpenAI’s Gym library, and the forked version Gymnasium - [22:30]",
+                "conclusions":"Everything is coming along nicely, and i’m excited on reaching the end stage of designing the Tetris course - [22:30]",
+                "image": "",
+                "video_url": "",
+                "alt_text": ""
             }
         }
     }
