@@ -695,11 +695,11 @@
             "05":{
                 "weekday": "Sunday",
                 "project":"Tetris RL Course",
-                "objective":"It’s Monday again, and I’m a bit behind schedule since I changed the plan on the type of course it will be. There are a lot of tutorials for creating your own reinforcement learning projects, but i think doing it with tetris might stand out. I'm not sure how it will work for beginners but that is part of the challenge, to make something that anyone can take part of, no matter prerequisite knowledge. I imagine some sort of dynamic format that can accommodate and engage curiosity for beginners as well as seasoned programmers - [07:30]",
-                "agenda":["action", "state", "reward"],
-                "methods":"Finally I have the environment working, with action, state and reward functions in place. What's left is designing a neural net for training. It was a valuable lesson to redesign the game classes to fit the environment step-function, not as hard as I initially thought it would be - [22:30]",
-                "insights":"Building the environment from scratch is a valuable lesson and I already have ideas of designing the trading bot course which might be a course I can sell. I started thinking about creating a python package similar to OpenAI’s Gym library, and the forked version Gymnasium - [22:30]",
-                "conclusions":"Everything is coming along nicely, and i’m excited on reaching the end stage of designing the Tetris course - [22:30]",
+                "objective":"The day has come, today I will design a simple neural net to train an agent that can play tetris. This is the final step of the groundwork for the course, once this is complete I can start construction education material for the reinforcement learning course - [08:30]",
+                "agenda":["Neural net","Agent Play test"],
+                "methods":"The model is working and I’ve tested training, I’ve noticed that there are some bugs in the game logic i need to address. The longest I've trained it was a total of about 300 games which is not enough to tell if it’s nearing any relevant point to judge the model. I still need to fix some bugs and look over the reward function - [22:30]",
+                "insights":"I have a function running for visualizing the game while it trains, and it’s and amazing feeling seeing something i’ve designed myself learn to play a game I also coded - [22:30]",
+                "conclusions":"Reinforcement learning is maybe the most rewarding field of AI I've ever tried - [22:30]",
                 "image": "",
                 "video_url": "",
                 "alt_text": ""
