@@ -703,6 +703,18 @@
                 "image": "",
                 "video_url": "",
                 "alt_text": ""
+            },
+            "10":{
+                "weekday": "Saturday",
+                "project":"Tetris RL Course",
+                "objective":"Been taking a few days off, but today I'll look at the reward function and add a game action for dropping the current piece all the way down. - [09:00]",
+                "agenda":["Reward function","Drop piece game action"],
+                "methods":"The new action of dropping the current piece to the bottom improved the speed of training episodes and the reward-action feedback. But the hard part is still defining the reward function to drive the model to learn playing as intended - [22:30]",
+                "insights":"No insights",
+                "conclusions":"Tetris is a more complicated game to train than I anticipated - [22:30]",
+                "image": "",
+                "video_url": "",
+                "alt_text": ""
             }
         }
     }
