@@ -715,6 +715,18 @@
                 "image": "",
                 "video_url": "",
                 "alt_text": ""
+            },
+            "11":{
+                "weekday": "Sunday",
+                "project":"Tetris RL Course",
+                "objective":"Focusing on improving the reward function and model parameters. The training goes on for 1000 games at the moment and I might need to increase that to get any decent results - [14:00]",
+                "agenda":["Reward function", "optimizing training parameters"],
+                "methods":"I can’t get the agent to play the game as i want, i've increased training to 4000 games, and tested different reward tactics but the model is still not clearing rows. The epsilon greedy strategy is maybe not suitable for this game or i might need to use gradient descent instead of batching - [22:00]",
+                "insights":"Defining reward mechanics seems like an artform, mysteriously creative and not at all straightforward. Something I often think about is the reward functions in place for humans, in school and work environments, places i've worked and studied could do with a revised reward structure to drive company and employ goals - [22:00]",
+                "conclusions":"I would mind having the title of reward mechanics designer one day - [22:00]",
+                "image": "",
+                "video_url": "",
+                "alt_text": ""
             }
         }
     }
