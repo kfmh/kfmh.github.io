@@ -727,6 +727,18 @@
                 "image": "",
                 "video_url": "",
                 "alt_text": ""
+            },
+            "13":{
+                "weekday": "Tuesday",
+                "project":"Tetris RL Course",
+                "objective":"The reward function is the challenge and what I will keep improving today. There is a bug that also occurs and breaks the training loop that I need to fix. - [13:00]",
+                "agenda":["Reward function", "Fix indexing bug"],
+                "methods":"The reward function is really tricky to comprehend. Now the model gets rewarded for increasing the length of rows, and receives penalties for increasing the height. But right before i ended today's session, i tried slowing the step time by adding a 1s sleep interval, and printed the reward for each action. What I realized was that the model is receiving penalties on all actions and not only when height is increased. Which is not accurate for it to improve as intended. - [22:00]",
+                "insights":"Tetris is a hard game to train a model to play, given that to get a complete row by chance from just doing random actions is very small. Over 2000 games the model clear 1 row on average. - [22:00]",
+                "conclusions":"This is a harder task then i first thought, ill have to do some more studying for this - [22:00]",
+                "image": "",
+                "video_url": "",
+                "alt_text": ""
             }
         }
     }
